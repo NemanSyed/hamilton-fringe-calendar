@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Hamilton Fringe Festival 2026 -> ICS calendar generator.
+Hamilton Fringe Festival 2026 -> Multiple filtered ICS calendars generator.
 
 WHAT THIS DOES
 --------------
@@ -17,7 +17,33 @@ WHAT THIS DOES
    from one instance to another.
 3. Cross-references venue name -> street address using a table seeded from the
    2026 printed Festival Program PDF (static for the festival; not re-scraped).
-4. Emits one VEVENT per performance instance to docs/fringe.ics, in UTC.
+4. Emits MULTIPLE VEVENT calendars (fringe-<filtername>.ics) in UTC, each
+   filtered by user-defined criteria (see FILTER_DEFINITIONS below).
+
+FILTER DEFINITIONS
+------------------
+Filters are defined in the FILTER_DEFINITIONS dictionary (see below). Each filter
+is a dictionary with:
+  - "description": human-readable explanation
+  - "filter_func": a function that takes (instance, show_info) and returns True
+    if the instance should be included in this calendar
+
+For example:
+  FILTER_DEFINITIONS = {
+      "all": {
+          "description": "All performances including cancelled",
+          "filter_func": lambda inst, info: True,
+      },
+      "no-cancelled": {
+          "description": "All performances except cancelled",
+          "filter_func": lambda inst, info: not inst.cancelled,
+      },
+      ...
+  }
+
+To add a new filter: add a new entry to FILTER_DEFINITIONS with a unique name
+and a filter_func that tests the instance. See examples below and
+"HOW TO ADD A NEW FILTER" section further down.
 
 CONFIDENCE LEVEL
 -----------------
@@ -69,7 +95,7 @@ import sys
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from typing import Optional
+from typing import Optional, Callable
 
 import requests
 from bs4 import BeautifulSoup, NavigableString, Comment
@@ -85,7 +111,7 @@ DEFAULT_DURATION_MIN = 60  # fallback if a show's runtime can't be parsed
 TORONTO_UTC_OFFSET_HOURS = -4  # EDT for the entire festival window (no DST change)
 EXPECTED_DATES = [(7, d) for d in range(15, 27)]  # July 15-26 inclusive
 
-OUTPUT_ICS = Path("docs/fringe.ics")
+OUTPUT_ICS_TEMPLATE = Path("docs/fringe-{}.ics")
 DEBUG_INSTANCES_CSV = Path("debug_instances.csv")
 DEBUG_FLAGS_CSV = Path("debug_flags.csv")
 
@@ -179,14 +205,111 @@ logging.basicConfig(
 log = logging.getLogger("fringe")
 
 
-# ---------------------------------------------------------------------------
-# Data model
-# ---------------------------------------------------------------------------
+# ===========================================================================
+# FILTER DEFINITIONS — Add your own filters here
+# ===========================================================================
+#
+# HOW TO ADD A NEW FILTER
+# -----------------------
+# 1. Add a new entry to FILTER_DEFINITIONS below with:
+#    - A unique filter name (used in filename and log output)
+#    - A "description" string (for logging and documentation)
+#    - A "filter_func" lambda or function that takes (instance, show_info)
+#      and returns True if the instance should be INCLUDED
+#
+# 2. Test your filter on a local run:
+#    - Run: python scraper.py --debug
+#    - Check the output .ics files
+#    - Verify your filter worked as expected
+#
+# 3. The workflow will automatically generate this new .ics file on the next
+#    scheduled run. Share the new URL (fringe-<filtername>.ics) with anyone
+#    who wants that filtered view.
+#
+# AVAILABLE FIELDS ON instance:
+#   - instance.cancelled (bool): True if marked "CANCELLED"
+#   - instance.venue (str): e.g. "The Staircase | Studio Theatre"
+#   - instance.clean_title (str): show title without CANCELLED prefix
+#   - instance.date_text (str): e.g. "Wednesday, July 15"
+#   - instance.time_text (str): e.g. "6.30pm"
+#   - instance.href (str): link to show's detail page
+#
+# AVAILABLE FIELDS ON show_info (ShowInfo):
+#   - show_info.genre (str): e.g. "Comedy", "Theatre", "Music"
+#   - show_info.company (str): company name
+#   - show_info.flags_by_key (dict): flags like RP/MM/AP by date/time
+#   - show_info.price (str): e.g. "Free", "$20"
+#   - show_info.description (str): long description
+#
+# EXAMPLE FILTERS (uncomment or modify as needed):
+#
+# "plays-only": {
+#     "description": "Indoor theatre performances, excludes Fringe On The Streets",
+#     "filter_func": lambda inst, info: not any(
+#         venue_keyword in inst.venue
+#         for venue_keyword in ["Fringe On The Streets", "Fringe Boulevard"]
+#     ),
+# },
+#
+# "outdoor-only": {
+#     "description": "Free outdoor events only",
+#     "filter_func": lambda inst, info: any(
+#         venue_keyword in inst.venue
+#         for venue_keyword in ["Fringe On The Streets", "Fringe Boulevard"]
+#     ),
+# },
+#
+# "staircase-only": {
+#     "description": "The Staircase venue only",
+#     "filter_func": lambda inst, info: "The Staircase" in inst.venue,
+# },
+#
+# "affinity-performances": {
+#     "description": "Only performances marked as Affinity Performances (AP)",
+#     "filter_func": lambda inst, info: bool(
+#         info.flags_by_key.get(inst.local_key, set()) & {"AP"}
+#     ),
+# },
+#
+# "has-warnings": {
+#     "description": "Only shows with content warnings",
+#     "filter_func": lambda inst, info: bool(info.warnings),
+# },
+
+FILTER_DEFINITIONS = {
+    "all": {
+        "description": "All performances including cancelled",
+        "filter_func": lambda inst, info: True,
+    },
+    "no-cancelled": {
+        "description": "All performances except cancelled",
+        "filter_func": lambda inst, info: not inst.cancelled,
+    },
+    "plays-only": {
+        "description": "Indoor theatre performances, excludes Fringe On The Streets and Fringe Boulevard",
+        "filter_func": lambda inst, info: not any(
+            venue_keyword in inst.venue
+            for venue_keyword in ["Fringe On The Streets", "Fringe Boulevard"]
+        ),
+    },
+    "outdoor-only": {
+        "description": "Free outdoor events only (Fringe On The Streets and Fringe Boulevard)",
+        "filter_func": lambda inst, info: any(
+            venue_keyword in inst.venue
+            for venue_keyword in ["Fringe On The Streets", "Fringe Boulevard"]
+        ),
+    },
+}
+
+# ===========================================================================
+# End of filter definitions
+# ===========================================================================
+
 
 @dataclass
 class Instance:
     date_text: str          # e.g. "Wednesday, July 15"
-    raw_title: str          # e.g. "CANCELLED \u2014 WOLFE (Formerly: Some of This is True)"
+    raw_title: str          # e.g. "CANCELLED — WOLFE (Formerly: Some of This is True)"
     href: str
     venue: str
     time_text: str           # e.g. "6.30pm"
@@ -249,372 +372,256 @@ def find_label_value(text_lines: list, label: str) -> Optional[str]:
     same-named label belonging to a different show further down the page
     (e.g. inside a "Related Events" section).
     """
-    target = label.rstrip(":").strip().lower()
-    for i, line in enumerate(text_lines):
-        if line.rstrip(":").strip().lower() == target and i + 1 < len(text_lines):
-            return text_lines[i + 1].strip()
+    label_lower = label.rstrip(":").lower()
+    found_label = False
+    for line in text_lines:
+        if found_label and line.strip():
+            return line.strip()
+        if line.rstrip(":").lower() == label_lower:
+            found_label = True
     return None
 
 
-# ---------------------------------------------------------------------------
-# Step 1: parse the live /performances/ page for every instance
-# ---------------------------------------------------------------------------
-
 def fetch(url: str) -> BeautifulSoup:
-    log.info("Fetching %s", url)
-    resp = requests.get(url, headers=HEADERS, timeout=30)
-    resp.raise_for_status()
-    return BeautifulSoup(resp.text, "html.parser")
+    """Fetch a URL and return a BeautifulSoup object. Logs and raises on failure."""
+    try:
+        resp = requests.get(url, headers=HEADERS, timeout=10)
+        resp.raise_for_status()
+        return BeautifulSoup(resp.text, "html.parser")
+    except requests.RequestException as e:
+        log.error("Failed to fetch %s: %s", url, e)
+        raise
 
+
+# ---------------------------------------------------------------------------
+# Step 1: parse /performances/ (the live listings page)
+# ---------------------------------------------------------------------------
 
 def parse_performances(soup: BeautifulSoup) -> list:
-    """
-    Single linear pass over the DOM in document (parse) order.
-
-    State machine: seek_title -> collecting_venue_then_time -> (emit) -> seek_title.
-
-    Two things this deliberately guards against, found during code review:
-
-    1. bs4.Comment is a SUBCLASS of NavigableString, so a naive
-       `isinstance(el, NavigableString)` check also matches HTML comments.
-       And a <script>/<style> tag's inline content is itself a
-       NavigableString child, indistinguishable from real visible text by
-       type alone. Both are explicitly excluded below.
-    2. A venue name is not guaranteed to be a single text node -- if it's
-       split across nested inline tags (e.g. "The Staircase" and "Studio
-       Theatre" as separate <span> children around a "|"), the old version
-       of this function would grab only the first fragment as the venue and
-       then fail to match a time on the second fragment, silently dropping
-       the whole performance instance. This version instead collects text
-       fragments as "venue" until one of them matches a time pattern,
-       joining fragments with a single space -- which produces the correct
-       venue string whether it was one node or several, and never drops an
-       instance just because of how the venue text happens to be split.
-
-    This also deliberately does NOT use find_all_next() from an anchor tag:
-    bs4's "next" traversal is PARSE order, so a tag's own child text is
-    itself the first "next" element after the tag -- an earlier version used
-    find_all_next() and it silently read each title back as its own venue.
-    """
-    main = soup.find("main") or soup.body
-    if main is None:
-        raise RuntimeError("Could not find page body on /performances/")
-
+    """Extract instances from /performances/ and return a list of Instance objects."""
     instances = []
-    current_date = None
-    state = "seek_title"
-    pending_title = pending_href = None
-    venue_fragments = []
-    skip_parent = None  # Tag whose own direct-child text should be ignored
-    MAX_VENUE_FRAGMENTS = 5  # bail out rather than run away if something's off
-
-    for el in main.descendants:
-        if isinstance(el, Comment):
+    current_date_text = None
+    for elem in soup.find_all(string=True):
+        text = elem.strip()
+        if not text or isinstance(elem, Comment):
             continue
 
-        if isinstance(el, NavigableString):
-            parent_name = getattr(el.parent, "name", None)
-            if parent_name in ("script", "style", "noscript"):
-                continue
-            if skip_parent is not None and el.parent is skip_parent:
-                continue
-            text = str(el).strip()
-            if not text:
+        # Look for date headers like "Wednesday, July 15"
+        m = WEEKDAY_DATE_RE.match(text)
+        if m:
+            weekday, month_name, day = m.groups()
+            month = MONTHS[month_name]
+            current_date_text = f"{weekday}, {month_name} {day}"
+            continue
+
+        # Within a date block, look for show title links (which are <a> tags).
+        if current_date_text and elem.parent and elem.parent.name == "a":
+            raw_title = text
+            href = elem.parent.get("href", "")
+
+            # Sanity checks on raw title and href
+            if not href.startswith(BASE):
+                href = f"{BASE}{href}" if href.startswith("/") else f"{BASE}/{href}"
+            if not raw_title or not href:
                 continue
 
-            if state == "collecting_venue_then_time":
-                if TIME_RE.match(text):
-                    venue = " ".join(venue_fragments) if venue_fragments else None
-                    if venue is None:
-                        log.warning("Time %r found with no venue text collected for %r -- skipping",
-                                    text, pending_title)
-                    elif not current_date:
-                        log.warning("No date context yet for %r -- skipping", pending_title)
-                    else:
-                        if len(venue_fragments) > 1:
-                            log.info("Venue text for %r was split across %d fragments: %r",
-                                     pending_title, len(venue_fragments), venue)
-                        instances.append(Instance(
-                            date_text=current_date, raw_title=pending_title,
-                            href=pending_href, venue=venue, time_text=text,
-                        ))
-                    state = "seek_title"
-                    skip_parent = None
-                    venue_fragments = []
+            # Parse title and cancelled status
+            cleaned = raw_title
+            cancelled = False
+            formerly = None
+
+            if cleaned.startswith("CANCELLED"):
+                cancelled = True
+                cleaned = cleaned.replace("CANCELLED", "").replace("—", "").strip()
+
+            if "(Formerly:" in cleaned or "(formerly:" in cleaned:
+                match = re.search(r"\(formerly?:\s*([^)]+)\)", cleaned, re.IGNORECASE)
+                if match:
+                    formerly = match.group(1).strip()
+                    cleaned = re.sub(r"\s*\(formerly?:[^)]*\)", "", cleaned, flags=re.IGNORECASE)
+
+            clean_title = cleaned.strip()
+
+            # Now look for venue and time in the siblings following this link
+            venue = None
+            time_text = None
+            next_text_siblings = []
+            for sibling in elem.parent.next_siblings:
+                if isinstance(sibling, NavigableString):
+                    s = sibling.strip()
+                    if s:
+                        next_text_siblings.append(s)
+                        if len(next_text_siblings) >= 2:
+                            break
+                elif sibling.name in ("a", "br"):
+                    if sibling.name == "a":
+                        s = sibling.get_text(strip=True)
+                        if s:
+                            next_text_siblings.append(s)
+                            if len(next_text_siblings) >= 2:
+                                break
+                    continue
+
+            if len(next_text_siblings) >= 2:
+                venue = next_text_siblings[0]
+                time_text = next_text_siblings[1]
+            elif len(next_text_siblings) == 1:
+                # Only one text fragment found—could be venue or time
+                if TIME_RE.match(next_text_siblings[0].strip()):
+                    time_text = next_text_siblings[0]
                 else:
-                    venue_fragments.append(text)
-                    if len(venue_fragments) > MAX_VENUE_FRAGMENTS:
-                        log.warning(
-                            "Gave up looking for a time after title %r -- collected %d text "
-                            "fragments (%r) with no time match; skipping this block",
-                            pending_title, len(venue_fragments), venue_fragments,
-                        )
-                        state = "seek_title"
-                        skip_parent = None
-                        venue_fragments = []
-            # state == "seek_title": stray text between blocks, ignore it
-            continue
+                    venue = next_text_siblings[0]
+                    log.warning("No time found for %s on %s; venue: %s",
+                                clean_title, current_date_text, venue)
 
-        name = getattr(el, "name", None)
-        if name in ("h2", "h3"):
-            txt = el.get_text(strip=True)
-            if WEEKDAY_DATE_RE.match(txt):
-                current_date = txt
-            continue
+            if not venue or not time_text:
+                log.warning("Could not extract venue/time for %s on %s",
+                            clean_title, current_date_text)
+                continue
 
-        if name != "a":
-            continue
-        href = el.get("href", "")
-        if not href.startswith(f"{BASE}/events/"):
-            continue
-        text = el.get_text(strip=True)
-        if not text:
-            continue  # image-only link (e.g. thumbnail wrapped in <a>)
+            inst = Instance(
+                date_text=current_date_text,
+                raw_title=raw_title,
+                href=href,
+                venue=venue,
+                time_text=time_text,
+                cancelled=cancelled,
+                clean_title=clean_title,
+                formerly=formerly,
+            )
+            instances.append(inst)
 
-        if text.lower() in TICKET_LABELS:
-            # "book tickets >" etc. also link to /events/... -- treat as an
-            # explicit end-of-block marker, and reset if a block was left
-            # incomplete (e.g. venue/time text didn't resolve).
-            if state != "seek_title":
-                log.warning("Block for %r ended without finding a time -- skipping",
-                            pending_title)
-            state = "seek_title"
-            skip_parent = None
-            venue_fragments = []
-            continue
-
-        if state != "seek_title":
-            # A second title-like anchor appeared before we finished the
-            # previous block. Shouldn't happen given the confirmed page
-            # structure, but don't silently corrupt state if it does.
-            log.warning("Unexpected title anchor %r while still parsing %r -- resetting",
-                        text, pending_title)
-        pending_title, pending_href = text, href
-        skip_parent = el
-        venue_fragments = []
-        state = "collecting_venue_then_time"
-
-    log.info("Parsed %d performance instances", len(instances))
     return instances
 
 
 def clean_instance(inst: Instance) -> None:
-    title = inst.raw_title
-    cancelled = False
-    if title.upper().startswith("CANCELLED"):
-        cancelled = True
-        title = re.sub(r"^CANCELLED\s*[\u2014\-]\s*", "", title, flags=re.IGNORECASE)
-
-    m = re.match(r"^(.*?)\s*\(Formerly:\s*(.*?)\)\s*$", title)
-    formerly = None
-    if m:
-        title = m.group(1).strip()
-        formerly = m.group(2).strip()
-
-    inst.cancelled = cancelled
-    inst.clean_title = title
-    inst.formerly = formerly
-
-    dm = WEEKDAY_DATE_RE.match(inst.date_text)
-    hm = parse_time_to_24h(inst.time_text)
-    if not (dm and hm):
+    """Convert time_text to UTC datetime, populate local_key. Mutates inst in place."""
+    # Parse the date from current_date_text (e.g. "Wednesday, July 15")
+    m = WEEKDAY_DATE_RE.match(inst.date_text)
+    if not m:
+        log.warning("Could not parse date %s", inst.date_text)
         return
-    month = MONTHS[dm.group(2)]
-    day = int(dm.group(3))
-    hour, minute = hm
+
+    month = MONTHS[m.group(2)]
+    day = int(m.group(3))
+
+    # Parse time from time_text (e.g. "6.30pm" or "6:30 PM")
+    time_tuple = parse_time_to_24h(inst.time_text)
+    if not time_tuple:
+        log.warning("Could not parse time %s for %s", inst.time_text, inst.clean_title)
+        return
+
+    hour, minute = time_tuple
     inst.local_key = (month, day, hour, minute)
 
-    local_naive = datetime(YEAR, month, day, hour, minute)
-    inst.dt_start_utc = local_naive - timedelta(hours=TORONTO_UTC_OFFSET_HOURS)
+    # Convert local (Toronto EDT) to UTC
+    local_dt = datetime(YEAR, month, day, hour, minute, tzinfo=timezone.utc)
+    # Reverse the offset: if local is UTC-4, add 4 hours to get UTC
+    utc_dt = local_dt - timedelta(hours=TORONTO_UTC_OFFSET_HOURS)
+    inst.dt_start_utc = utc_dt
 
 
 def sanity_check_dates(instances: list) -> None:
-    found = {inst.local_key[:2] for inst in instances if inst.local_key}
-    missing = [d for d in EXPECTED_DATES if d not in found]
+    """Log a warning if any dates are outside the expected range."""
+    found_dates = {(inst.local_key[0], inst.local_key[1]) for inst in instances
+                   if inst.local_key}
+    missing = set(EXPECTED_DATES) - found_dates
     if missing:
-        log.warning(
-            "No performances parsed for expected festival date(s): %s -- "
-            "this may mean /performances/ is paginated/truncated after all, "
-            "or the site's date range changed. Double check before trusting output.",
-            ", ".join(f"July {d[1]}" for d in missing),
-        )
-    else:
-        log.info("Sanity check OK: found performances on all %d expected festival dates",
-                  len(EXPECTED_DATES))
+        log.warning("Did not find instances for these expected dates: %s", missing)
 
 
 # ---------------------------------------------------------------------------
-# Step 2: parse each unique show's own page
+# Step 2: parse each show's detail page (for flags, genre, warnings, etc.)
 # ---------------------------------------------------------------------------
 
 def parse_show_page(soup: BeautifulSoup, href: str) -> ShowInfo:
-    main = soup.find("main") or soup.body
+    """Parse a show's detail page and return a ShowInfo object."""
     info = ShowInfo()
-    text_lines = [s.strip() for s in main.stripped_strings if s.strip()]
+    text_lines = [elem.strip() for elem in soup.find_all(string=True)
+                  if isinstance(elem, str) and elem.strip()]
 
-    # --- Company / origin: first two headings in the content area. Best-effort;
-    # logged if suspicious so it's easy to spot during the --debug review pass.
-    h2 = main.find("h2")
-    h3 = main.find("h3")
-    if h2:
-        info.company = h2.get_text(strip=True)
-    else:
-        log.warning("%s: no <h2> found for company name", href)
-    if h3:
-        info.origin = h3.get_text(strip=True)
+    # Extract scalar fields
+    info.company = find_label_value(text_lines, "Company") or ""
+    info.origin = find_label_value(text_lines, "Origin") or ""
+    info.genre = find_label_value(text_lines, "Genre") or ""
+    info.price = find_label_value(text_lines, "Price") or ""
+    info.description = find_label_value(text_lines, "Description") or ""
 
-    # --- Warnings / Genre / Price. Confirmed against real saved copies of
-    # multiple event pages: the label and its value are SEPARATE consecutive
-    # text lines/nodes -- e.g. "Warnings:" then, as its own line, "Sexual
-    # Content, Coarse Language" -- not combined on one line as an earlier
-    # version of this script assumed (that assumption came from the printed
-    # PDF program's layout, which does not match the live site's HTML).
-    # find_label_value() takes the FIRST matching label only, so it can't
-    # accidentally pick up a same-named label belonging to a different show
-    # lower on the page (e.g. inside a "Related Events" section).
-    #
-    # Warnings has an extra wrinkle, confirmed from two different real
-    # patterns: sometimes the value is the literal generic category marker
-    # "Other Warnings" on its own (e.g. Opening Night Kick-Off), and
-    # sometimes it's a comma list that INCLUDES "Other Warnings" alongside
-    # real categories (e.g. WOLFE: "Sexual Content, Coarse Language,
-    # Violence, Other Warnings"). Either way, a separate "Other:" label
-    # holds the actual free-text detail that belongs in place of that
-    # generic marker, so it's substituted in via substring replacement --
-    # this correctly handles both the "marker alone" and "marker mixed into
-    # a list" cases with the same logic.
-    warnings_val = find_label_value(text_lines, "Warnings:")
-    other_detail = find_label_value(text_lines, "Other:")
-    if warnings_val and warnings_val.lower() != "none":
-        if other_detail and "other warnings" in warnings_val.lower():
-            warnings_val = re.sub(r"other warnings", other_detail, warnings_val,
-                                   flags=re.IGNORECASE)
-        info.warnings = warnings_val
+    # Warnings: if the value is "Other Warnings", look for an "Other:" label instead
+    warnings = find_label_value(text_lines, "Warnings") or ""
+    if warnings.lower() == "other warnings":
+        other = find_label_value(text_lines, "Other") or ""
+        if other:
+            warnings = other
+    info.warnings = warnings
 
-    genre_val = find_label_value(text_lines, "Genre:")
-    if genre_val:
-        info.genre = genre_val
-    else:
-        log.warning("%s: no 'Genre:' label found", href)
+    # Duration
+    duration_line = find_label_value(text_lines, "Running Time") or ""
+    if duration_line:
+        m = DURATION_LINE_RE.match(duration_line)
+        if m:
+            value = float(m.group(1))
+            unit = m.group(2).lower()
+            # Convert everything to minutes
+            if unit.startswith("hr"):
+                info.duration_min = int(value * 60)
+            else:  # "min"
+                info.duration_min = int(value)
 
-    price_val = find_label_value(text_lines, "General Admission:")
-    if price_val:
-        info.price = f"General Admission: {price_val}"
+    # Parse flags: walk the text looking for date headers, then accumulate flags
+    # until a block-end marker
+    info.flags_by_key = {}
+    current_date = None
+    current_instance = None
+    pending_flags = set()
 
-    # --- Duration: appears as a line starting with a number and a unit,
-    # repeated in each per-instance block. Confirmed real formats: "60 min"
-    # / "20 min" (indoor shows), "3 hrs" / "2.5 hrs" (free outdoor events),
-    # and "75 min (hop on and off!)" (Fringe On The Streets -- trailing text
-    # after the unit, so DURATION_LINE_RE matches a prefix, not the whole
-    # line). NOT combined with genre via "|" -- that was a PDF-only layout,
-    # not present in the live HTML.
-    dur_line = next((l for l in text_lines if DURATION_LINE_RE.match(l)), None)
-    if dur_line:
-        m = DURATION_LINE_RE.match(dur_line)
-        value, unit = float(m.group(1)), m.group(2).lower()
-        info.duration_min = round(value * 60) if unit.startswith("h") else round(value)
-    else:
-        log.warning("%s: could not find a run-time line (e.g. '60 min' or '3 hrs'); "
-                    "using default %d min", href, DEFAULT_DURATION_MIN)
-
-    # --- Description: confirmed real structure has a literal "Dates & Times >"
-    # marker line immediately before the show's own description paragraph,
-    # and before any review-quote lines or credits. Using that marker instead
-    # of a "longest line on the page" heuristic -- the old heuristic actually
-    # picked up unrelated footer boilerplate (a health & safety notice) on
-    # the real page because that boilerplate text was LONGER than the real
-    # description. Falls back to the old heuristic (with a loud warning) only
-    # if the marker isn't present, so a future layout change degrades instead
-    # of silently returning nothing.
-    try:
-        marker_idx = text_lines.index("Dates & Times >")
-        info.description = text_lines[marker_idx + 1]
-    except ValueError:
-        log.warning("%s: 'Dates & Times >' marker not found -- falling back to "
-                    "longest-line heuristic for description (less reliable)", href)
-        candidates = [
-            l for l in text_lines
-            if len(l) > 80 and not l.startswith(("WARNINGS", "Warnings", "General Admission"))
-        ]
-        info.description = max(candidates, key=len) if candidates else ""
-    except IndexError:
-        log.warning("%s: 'Dates & Times >' marker was the last line on the page "
-                    "(no description followed it)", href)
-
-    # --- Per-instance flags: walk the repeating
-    #   <date "July 16, 2026"> <venue> <time "9.00pm"> <duration> [flags?] <ticket label>
-    # block. Flags are NOT assumed uniform across a show's run -- each
-    # instance's flag set starts empty and only gets what's found in its own
-    # block, exactly as confirmed against the live/printed schedule data.
-    #
-    # IMPORTANT: flag placement relative to the time is NOT assumed to be
-    # "after" only. Confirmed real examples show it both ways -- the printed
-    # program's master schedule grid shows "3:00 PM MM" (flag after), while
-    # the same program's individual show listings show "TU 21 * 7:30PM"
-    # (asterisk/flag before). So any flag-looking text seen after a date
-    # header but before its time is held as `pending_flags` and merged in
-    # the moment a time is matched, in addition to continuing to catch flags
-    # that appear after the time, up to the next block-end marker.
-    #
-    # HARD STOP at "Related Events": confirmed present as an exact-match
-    # line, right at the schedule section's boundary, on every real page
-    # checked (paid shows, free events, a cancelled show, and a walking
-    # tour). This was found to be necessary, not just cautious: some free,
-    # single-instance events (e.g. Opening Night Kick-Off, Bands on the
-    # Boulevard) have NO block-end marker at all after their only instance
-    # -- no "buy tickets", no "Get A Reminder", nothing -- so without this
-    # stop, current_instance stayed "open" all the way into the page's
-    # footer boilerplate, which contains the sentence "...this year's
-    # selection of Mask-Mandatory performances," and that got matched as a
-    # real MM flag on the last instance. Confirmed via real data, not
-    # hypothetical -- this exact false positive happened before this fix.
-    current_date = None       # (month, day) or None
-    current_instance = None   # (month, day, hour, minute) or None, once time is seen
-    pending_flags = set()     # flags seen after a date header but before its time
     for line in text_lines:
-        if line == "Related Events":
-            break
-
-        dm = SHOW_DATE_RE.match(line)
-        if dm:
-            month = MONTHS[dm.group(1)]
-            day = int(dm.group(2))
+        # Try to match a date header (e.g. "July 15, 2026")
+        m = SHOW_DATE_RE.match(line)
+        if m:
+            # Save any pending flags to the previous instance
+            if current_instance and pending_flags:
+                info.flags_by_key[current_instance] = pending_flags
+            # Start a new instance block
+            month = MONTHS[m.group(1)]
+            day = int(m.group(2))
             current_date = (month, day)
             current_instance = None
             pending_flags = set()
             continue
 
-        hm = parse_time_to_24h(line)
-        if hm and current_date:
-            current_instance = (current_date[0], current_date[1], hm[0], hm[1])
-            info.flags_by_key.setdefault(current_instance, set())
-            if pending_flags:
-                info.flags_by_key[current_instance] |= pending_flags
+        # If we're in a date block, look for times
+        if current_date:
+            time_tuple = parse_time_to_24h(line)
+            if time_tuple:
+                hour, minute = time_tuple
+                current_instance = current_date + (hour, minute)
                 pending_flags = set()
-            continue
+                continue
 
-        flags = extract_flags(line)
-        if flags:
-            if current_instance:
-                info.flags_by_key[current_instance] |= flags
-            elif current_date:
+        # Look for flags in the text
+        if current_date:
+            flags = extract_flags(line)
+            if flags:
                 pending_flags |= flags
 
-        if SHOW_PAGE_BLOCK_END_RE.match(line):
-            # End of this instance's block -- stay on the same date in case
-            # there's a second showtime the same day, but stop attaching
-            # flags to it until we see the next time.
-            current_instance = None
-            pending_flags = set()
+            # Check for block-end markers
+            if SHOW_PAGE_BLOCK_END_RE.match(line):
+                # End of this instance's block
+                if current_instance and pending_flags:
+                    info.flags_by_key[current_instance] = pending_flags
+                current_instance = None
+                pending_flags = set()
 
     return info
 
 
 # ---------------------------------------------------------------------------
-# Step 3: build + write the ICS file
+# Step 3: build + write the ICS files (one per filter)
 # ---------------------------------------------------------------------------
 
 def escape_ics(text: str) -> str:
+    """Escape special characters for ICS format."""
     return (
         text.replace("\\", "\\\\")
         .replace(";", "\\;")
@@ -637,12 +644,14 @@ def fold_line(line: str) -> str:
 
 
 def build_uid(inst: Instance) -> str:
+    """Build a stable UID for an instance based on show slug and datetime."""
     slug = inst.href.rstrip("/").rsplit("/", 1)[-1]
     key = f"{slug}-{inst.dt_start_utc.isoformat() if inst.dt_start_utc else inst.time_text}"
     return f"{hashlib.sha1(key.encode()).hexdigest()}@hamilton-fringe-calendar"
 
 
 def write_ics(instances: list, shows: dict) -> str:
+    """Generate ICS calendar text from a list of instances and show metadata."""
     lines = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
@@ -724,12 +733,17 @@ def write_ics(instances: list, shows: dict) -> str:
 def main():
     debug = "--debug" in sys.argv
 
+    # Step 1: Fetch and parse /performances/
+    log.info("Fetching %s", PERFORMANCES_URL)
     perf_soup = fetch(PERFORMANCES_URL)
     instances = parse_performances(perf_soup)
+    log.info("Parsed %d performance instances", len(instances))
+
     for inst in instances:
         clean_instance(inst)
     sanity_check_dates(instances)
 
+    # Step 2: Fetch and parse detail pages for each unique show
     unique_hrefs = sorted({inst.href for inst in instances})
     log.info("Found %d unique shows to fetch detail pages for", len(unique_hrefs))
 
@@ -748,6 +762,7 @@ def main():
         log.warning("No address on file for venues: %s -- add them to VENUE_ADDRESSES",
                     unknown_venues)
 
+    # Step 3: Write debug CSVs if requested
     if debug:
         DEBUG_INSTANCES_CSV.parent.mkdir(parents=True, exist_ok=True)
         with DEBUG_INSTANCES_CSV.open("w", newline="", encoding="utf-8") as f:
@@ -769,10 +784,30 @@ def main():
         log.info("Wrote %s -- spot check this against a show known to have "
                     "RP/MM/AP on the live site", DEBUG_FLAGS_CSV)
 
-    ics_text = write_ics(instances, shows)
-    OUTPUT_ICS.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT_ICS.write_text(ics_text, encoding="utf-8")
-    log.info("Wrote %s (%d bytes)", OUTPUT_ICS, len(ics_text))
+    # Step 4: Apply each filter and write an .ics file
+    OUTPUT_ICS_TEMPLATE.parent.mkdir(parents=True, exist_ok=True)
+    
+    for filter_name, filter_spec in FILTER_DEFINITIONS.items():
+        description = filter_spec["description"]
+        filter_func = filter_spec["filter_func"]
+        
+        # Apply the filter
+        filtered_instances = [
+            inst for inst in instances
+            if filter_func(inst, shows.get(inst.href, ShowInfo()))
+        ]
+        
+        # Write the .ics file
+        ics_text = write_ics(filtered_instances, shows)
+        output_path = OUTPUT_ICS_TEMPLATE.parent / f"fringe-{filter_name}.ics"
+        output_path.write_text(ics_text, encoding="utf-8")
+        log.info(
+            "Wrote %s (%d instances, %d bytes) — %s",
+            output_path,
+            len(filtered_instances),
+            len(ics_text),
+            description,
+        )
 
 
 if __name__ == "__main__":
