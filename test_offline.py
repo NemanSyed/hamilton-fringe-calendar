@@ -18,34 +18,37 @@ import scraper  # noqa: E402
 # ---------------------------------------------------------------------------
 # Fixture 1: /performances/ page -- two dates, five instances, one cancelled
 # with a rename, mirroring real examples pulled from the live site.
-# Note: Image links (empty <a><img></a> tags) removed to match real site
-# structure and prevent parser from misinterpreting them as show titles.
 # ---------------------------------------------------------------------------
 PERFORMANCES_HTML = """
 <html><body><main>
 <h3>Wednesday, July 15</h3>
+<a href="https://hftco.ca/events/opening-night-kick-off/"><img src="x.jpg"></a>
 <a href="https://hftco.ca/events/opening-night-kick-off/">Opening Night Kick-Off</a>
 <p>Mills Hardware</p>
 <p>6.30pm</p>
 <a href="https://hftco.ca/events/opening-night-kick-off/">book tickets &gt;</a>
 
 <h3>Thursday, July 16</h3>
+<a href="https://hftco.ca/events/some-of-this-is-true/"><img src="x.jpg"></a>
 <a href="https://hftco.ca/events/some-of-this-is-true/">CANCELLED &#8212; WOLFE (Formerly: Some of This is True)</a>
 <p>The Gasworks</p>
 <p>6.00pm</p>
 <a href="https://hftco.ca/events/some-of-this-is-true/">book tickets &gt;</a>
 
+<a href="https://hftco.ca/events/love-craic/"><img src="x.jpg"></a>
 <a href="https://hftco.ca/events/love-craic/">LOVE &amp; CRAIC</a>
 <p>The Staircase | Studio Theatre</p>
 <p>10.30pm</p>
 <a href="https://hftco.ca/events/love-craic/">book tickets &gt;</a>
 
 <h3>Friday, July 17</h3>
+<a href="https://hftco.ca/events/love-craic/"><img src="x.jpg"></a>
 <a href="https://hftco.ca/events/love-craic/">LOVE &amp; CRAIC</a>
 <p>The Staircase | Studio Theatre</p>
 <p>7.30pm</p>
 <a href="https://hftco.ca/events/love-craic/">book tickets &gt;</a>
 
+<a href="https://hftco.ca/events/foodie-fringe/"><img src="x.jpg"></a>
 <a href="https://hftco.ca/events/foodie-fringe/">Foodie Fringe</a>
 <p>Fringe Boulevard</p>
 <p>5.00pm</p>
