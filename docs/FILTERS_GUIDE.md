@@ -15,11 +15,12 @@ This guide shows you how to create new filtered calendars (e.g., only comedy sho
 
 ## The Filter Template
 
-Each filter is a Python dictionary with three required keys:
+Each filter is a Python dictionary with four required keys:
 
 ```python
 "my-filter-name": {
     "description": "Human-readable explanation of what this filter does",
+    "cal_name": "Hamilton Fringe 2026 — My Filter Name",
     "filter_func": lambda inst, info: CONDITION_HERE,
 }
 ```
@@ -35,6 +36,11 @@ Each filter is a Python dictionary with three required keys:
   - Appears in the log output when the scraper runs.
   - Helps you remember what this calendar is for.
   - Example: `"Only performances at The Staircase venue"`
+
+- **`"cal_name"`**: The name that appears in your calendar app for this subscription.
+  - Keep the "Hamilton Fringe 2026 —" prefix so all your calendars group together.
+  - Example: `"Hamilton Fringe 2026 — Staircase Only"`
+  - **Required** — omitting this will crash the scraper with a KeyError.
 
 - **`"filter_func"`**: A function (written as a `lambda` for simplicity) that decides whether to include an instance.
   - Takes two parameters: `inst` (the performance instance) and `info` (show metadata).
@@ -76,6 +82,7 @@ Inside your filter function, you have access to these fields:
 ```python
 "no-cancelled": {
     "description": "All performances except cancelled",
+    "cal_name": "Hamilton Fringe 2026 — No Cancellations",
     "filter_func": lambda inst, info: not inst.cancelled,
 }
 ```
@@ -87,6 +94,7 @@ Inside your filter function, you have access to these fields:
 ```python
 "staircase-only": {
     "description": "Only performances at The Staircase",
+    "cal_name": "Hamilton Fringe 2026 — Staircase Only",
     "filter_func": lambda inst, info: "The Staircase" in inst.venue,
 }
 ```
@@ -100,6 +108,7 @@ Inside your filter function, you have access to these fields:
 ```python
 "outdoor-only": {
     "description": "Free outdoor events only (Fringe On The Streets, Fringe Boulevard)",
+    "cal_name": "Hamilton Fringe 2026 — Outdoor Events",
     "filter_func": lambda inst, info: any(
         venue_keyword in inst.venue
         for venue_keyword in ["Fringe On The Streets", "Fringe Boulevard"]
@@ -116,6 +125,7 @@ Inside your filter function, you have access to these fields:
 ```python
 "affinity-only": {
     "description": "Only Affinity Performances (AP flag)",
+    "cal_name": "Hamilton Fringe 2026 — Affinity Performances",
     "filter_func": lambda inst, info: "AP" in info.flags_by_key.get(inst.local_key, set()),
 }
 ```
@@ -130,12 +140,14 @@ Variations:
 # Only Relaxed Performances
 "relaxed-only": {
     "description": "Only Relaxed Performances (RP flag)",
+    "cal_name": "Hamilton Fringe 2026 — Relaxed Performances",
     "filter_func": lambda inst, info: "RP" in info.flags_by_key.get(inst.local_key, set()),
 }
 
 # Only shows with ANY special flag (RP, MM, or AP)
 "special-flags": {
     "description": "Only performances with special flags (RP, MM, or AP)",
+    "cal_name": "Hamilton Fringe 2026 — Special Access Performances",
     "filter_func": lambda inst, info: bool(info.flags_by_key.get(inst.local_key, set())),
 }
 ```
@@ -146,6 +158,7 @@ Variations:
 ```python
 "plays-only": {
     "description": "Indoor theatre only, excludes street/outdoor events",
+    "cal_name": "Hamilton Fringe 2026 — Plays Only",
     "filter_func": lambda inst, info: not any(
         venue_keyword in inst.venue
         for venue_keyword in ["Fringe On The Streets", "Fringe Boulevard"]
@@ -161,6 +174,7 @@ Variations:
 ```python
 "free-only": {
     "description": "Only free performances",
+    "cal_name": "Hamilton Fringe 2026 — Free Shows",
     "filter_func": lambda inst, info: "free" in info.price.lower(),
 }
 ```
@@ -172,6 +186,7 @@ Paid shows:
 ```python
 "paid-only": {
     "description": "Only paid performances (excludes free)",
+    "cal_name": "Hamilton Fringe 2026 — Paid Shows",
     "filter_func": lambda inst, info: info.price and "free" not in info.price.lower(),
 }
 ```
@@ -182,6 +197,7 @@ Paid shows:
 ```python
 "comedy-only": {
     "description": "Comedy shows only",
+    "cal_name": "Hamilton Fringe 2026 — Comedy",
     "filter_func": lambda inst, info: "comedy" in info.genre.lower(),
 }
 ```
@@ -195,6 +211,7 @@ Paid shows:
 ```python
 "evening-only": {
     "description": "Only shows at 7pm or later",
+    "cal_name": "Hamilton Fringe 2026 — Evening Shows",
     "filter_func": lambda inst, info: (
         inst.local_key is not None and
         inst.local_key[2] >= 19  # hour index is [2] in (month, day, hour, minute)
@@ -211,6 +228,7 @@ Variations:
 # Only afternoon shows (noon–6pm)
 "afternoon-only": {
     "description": "Afternoon shows only (12pm–6pm)",
+    "cal_name": "Hamilton Fringe 2026 — Afternoon Shows",
     "filter_func": lambda inst, info: (
         inst.local_key is not None and
         12 <= inst.local_key[2] < 18
@@ -221,6 +239,7 @@ Variations:
 # Note: date_text includes the weekday name; July 15-26, 2026 are Wed–Sun
 "weekend-only": {
     "description": "Weekend shows only (Saturday and Sunday)",
+    "cal_name": "Hamilton Fringe 2026 — Weekend Shows",
     "filter_func": lambda inst, info: inst.date_text.startswith(("Saturday", "Sunday")),
 }
 ```
@@ -231,6 +250,7 @@ Variations:
 ```python
 "staircase-evening": {
     "description": "Evening shows at The Staircase (7pm or later)",
+    "cal_name": "Hamilton Fringe 2026 — Staircase Evenings",
     "filter_func": lambda inst, info: (
         "The Staircase" in inst.venue and
         inst.local_key is not None and
@@ -249,6 +269,7 @@ Variations:
 ```python
 "staircase-or-gasworks": {
     "description": "Performances at The Staircase or The Gasworks",
+    "cal_name": "Hamilton Fringe 2026 — Staircase & Gasworks",
     "filter_func": lambda inst, info: any(
         venue in inst.venue
         for venue in ["The Staircase", "The Gasworks"]
@@ -292,12 +313,14 @@ FILTER_DEFINITIONS = {
     # YOUR NEW FILTER HERE:
     "my-new-filter": {
         "description": "Your description here",
+        "cal_name": "Hamilton Fringe 2026 — Your Calendar Name",
         "filter_func": lambda inst, info: YOUR_CONDITION,
     },
 }
 ```
 
 **Important**: 
+- All three keys (`description`, `cal_name`, `filter_func`) are **required**. Omitting any one will crash the scraper.
 - End each filter with a comma (except the last one).
 - Use unique names (no duplicates).
 - Single quotes `'` and double quotes `"` are interchangeable in Python.

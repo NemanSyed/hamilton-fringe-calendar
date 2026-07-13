@@ -678,14 +678,17 @@ def build_uid(inst: Instance) -> str:
 FILTER_DEFINITIONS = {
     "all": {
         "description": "All performances including cancelled",
+        "cal_name": "Hamilton Fringe 2026 — All Shows",
         "filter_func": lambda inst, info: True,
     },
     "no-cancelled": {
         "description": "All performances except cancelled",
+        "cal_name": "Hamilton Fringe 2026 — No Cancellations",
         "filter_func": lambda inst, info: not inst.cancelled,
     },
     "plays-only": {
         "description": "Indoor theatre performances, excludes Fringe On The Streets and Fringe Boulevard",
+        "cal_name": "Hamilton Fringe 2026 — Plays Only",
         "filter_func": lambda inst, info: not any(
             venue_keyword in inst.venue
             for venue_keyword in ["Fringe On The Streets", "Fringe Boulevard"]
@@ -693,6 +696,7 @@ FILTER_DEFINITIONS = {
     },
     "outdoor-only": {
         "description": "Free outdoor events only (Fringe On The Streets and Fringe Boulevard)",
+        "cal_name": "Hamilton Fringe 2026 — Outdoor Events",
         "filter_func": lambda inst, info: any(
             venue_keyword in inst.venue
             for venue_keyword in ["Fringe On The Streets", "Fringe Boulevard"]
@@ -701,14 +705,14 @@ FILTER_DEFINITIONS = {
 }
 
 
-def write_ics(instances: list, shows: dict) -> str:
+def write_ics(instances: list, shows: dict, cal_name: str = "Hamilton Fringe 2026 (unofficial)") -> str:
     lines = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
         "PRODID:-//Hamilton Fringe Unofficial Calendar//EN",
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
-        "X-WR-CALNAME:Hamilton Fringe 2026 (unofficial)",
+        f"X-WR-CALNAME:{cal_name}",
     ]
 
     skipped = 0
@@ -829,10 +833,11 @@ def main():
                     "RP/MM/AP on the live site", DEBUG_FLAGS_CSV)
 
     # Apply each filter and write an .ics file
-    OUTPUT_ICS.mkdir(parents=True, exist_ok=True)
+    OUTPUT_ICS.parent.mkdir(parents=True, exist_ok=True)
     
     for filter_name, filter_spec in FILTER_DEFINITIONS.items():
         description = filter_spec["description"]
+        cal_name = filter_spec["cal_name"]
         filter_func = filter_spec["filter_func"]
         
         # Apply the filter
@@ -842,8 +847,8 @@ def main():
         ]
         
         # Write the .ics file
-        ics_text = write_ics(filtered_instances, shows)
-        output_path = OUTPUT_ICS / f"fringe-{filter_name}.ics"
+        ics_text = write_ics(filtered_instances, shows, cal_name)
+        output_path = OUTPUT_ICS.parent / f"fringe-{filter_name}.ics"
         output_path.write_text(ics_text, encoding="utf-8")
         log.info(
             "Wrote %s (%d instances, %d bytes) — %s",

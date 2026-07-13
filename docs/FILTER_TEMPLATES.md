@@ -10,6 +10,7 @@ This document provides 15 ready-to-use filters you can copy directly into your `
 ```python
 "no-cancelled": {
     "description": "All performances except cancelled",
+        "cal_name": "Hamilton Fringe 2026 — No Cancellations",
     "filter_func": lambda inst, info: not inst.cancelled,
 },
 ```
@@ -18,6 +19,7 @@ This document provides 15 ready-to-use filters you can copy directly into your `
 ```python
 "free-only": {
     "description": "Only free performances",
+        "cal_name": "Hamilton Fringe 2026 — Free Shows",
     "filter_func": lambda inst, info: info.price and "free" in info.price.lower(),
 },
 ```
@@ -26,6 +28,7 @@ This document provides 15 ready-to-use filters you can copy directly into your `
 ```python
 "paid-only": {
     "description": "Only paid performances",
+        "cal_name": "Hamilton Fringe 2026 — Paid Shows",
     "filter_func": lambda inst, info: info.price and "free" not in info.price.lower(),
 },
 ```
@@ -38,6 +41,7 @@ This document provides 15 ready-to-use filters you can copy directly into your `
 ```python
 "staircase": {
     "description": "Only The Staircase",
+        "cal_name": "Hamilton Fringe 2026 — Staircase",
     "filter_func": lambda inst, info: "The Staircase" in inst.venue,
 },
 ```
@@ -46,6 +50,7 @@ This document provides 15 ready-to-use filters you can copy directly into your `
 ```python
 "aquarius": {
     "description": "Only Theatre Aquarius",
+        "cal_name": "Hamilton Fringe 2026 — Theatre Aquarius",
     "filter_func": lambda inst, info: "Theatre Aquarius" in inst.venue,
 },
 ```
@@ -54,6 +59,7 @@ This document provides 15 ready-to-use filters you can copy directly into your `
 ```python
 "westdale": {
     "description": "Only The Westdale",
+        "cal_name": "Hamilton Fringe 2026 — The Westdale",
     "filter_func": lambda inst, info: "The Westdale" in inst.venue,
 },
 ```
@@ -62,6 +68,7 @@ This document provides 15 ready-to-use filters you can copy directly into your `
 ```python
 "indoor-only": {
     "description": "Indoor venues only (excludes Fringe On The Streets, Fringe Boulevard)",
+        "cal_name": "Hamilton Fringe 2026 — Indoor Shows",
     "filter_func": lambda inst, info: not any(
         venue_keyword in inst.venue
         for venue_keyword in ["Fringe On The Streets", "Fringe Boulevard"]
@@ -73,6 +80,7 @@ This document provides 15 ready-to-use filters you can copy directly into your `
 ```python
 "outdoor-only": {
     "description": "Outdoor events only (Fringe On The Streets, Fringe Boulevard)",
+        "cal_name": "Hamilton Fringe 2026 — Outdoor Events",
     "filter_func": lambda inst, info: any(
         venue_keyword in inst.venue
         for venue_keyword in ["Fringe On The Streets", "Fringe Boulevard"]
@@ -84,6 +92,7 @@ This document provides 15 ready-to-use filters you can copy directly into your `
 ```python
 "staircase-or-gasworks": {
     "description": "Only The Staircase or The Gasworks",
+        "cal_name": "Hamilton Fringe 2026 — Staircase & Gasworks",
     "filter_func": lambda inst, info: any(
         venue in inst.venue
         for venue in ["The Staircase", "The Gasworks"]
@@ -99,6 +108,7 @@ This document provides 15 ready-to-use filters you can copy directly into your `
 ```python
 "evening": {
     "description": "Only shows at 7pm or later",
+        "cal_name": "Hamilton Fringe 2026 — Evening Shows",
     "filter_func": lambda inst, info: (
         inst.local_key is not None and
         inst.local_key[2] >= 19
@@ -110,6 +120,7 @@ This document provides 15 ready-to-use filters you can copy directly into your `
 ```python
 "afternoon": {
     "description": "Afternoon shows only (12pm–6pm)",
+        "cal_name": "Hamilton Fringe 2026 — Afternoon Shows",
     "filter_func": lambda inst, info: (
         inst.local_key is not None and
         12 <= inst.local_key[2] < 18
@@ -121,6 +132,7 @@ This document provides 15 ready-to-use filters you can copy directly into your `
 ```python
 "morning": {
     "description": "Morning shows only (before 12pm)",
+        "cal_name": "Hamilton Fringe 2026 — Morning Shows",
     "filter_func": lambda inst, info: (
         inst.local_key is not None and
         inst.local_key[2] < 12
@@ -132,6 +144,7 @@ This document provides 15 ready-to-use filters you can copy directly into your `
 ```python
 "weekend": {
     "description": "Weekend performances only",
+        "cal_name": "Hamilton Fringe 2026 — Weekend Shows",
     "filter_func": lambda inst, info: inst.date_text.startswith(("Saturday", "Sunday")),
 },
 ```
@@ -144,6 +157,7 @@ This document provides 15 ready-to-use filters you can copy directly into your `
 ```python
 "has-warnings": {
     "description": "Only shows with content warnings",
+        "cal_name": "Hamilton Fringe 2026 — Has Content Warnings",
     "filter_func": lambda inst, info: bool(info.warnings),
 },
 ```
@@ -152,6 +166,7 @@ This document provides 15 ready-to-use filters you can copy directly into your `
 ```python
 "family-friendly": {
     "description": "Only shows with no content warnings",
+        "cal_name": "Hamilton Fringe 2026 — Family Friendly",
     "filter_func": lambda inst, info: not info.warnings,
 },
 ```
@@ -164,6 +179,7 @@ This document provides 15 ready-to-use filters you can copy directly into your `
 ```python
 "affinity": {
     "description": "Only Affinity Performances (AP)",
+        "cal_name": "Hamilton Fringe 2026 — Affinity Performances",
     "filter_func": lambda inst, info: "AP" in info.flags_by_key.get(inst.local_key, set()),
 },
 ```
@@ -172,6 +188,7 @@ This document provides 15 ready-to-use filters you can copy directly into your `
 ```python
 "relaxed": {
     "description": "Only Relaxed Performances (RP)",
+        "cal_name": "Hamilton Fringe 2026 — Relaxed Performances",
     "filter_func": lambda inst, info: "RP" in info.flags_by_key.get(inst.local_key, set()),
 },
 ```
@@ -180,6 +197,7 @@ This document provides 15 ready-to-use filters you can copy directly into your `
 ```python
 "mask-mandatory": {
     "description": "Only Mask-Mandatory Performances (MM)",
+        "cal_name": "Hamilton Fringe 2026 — Mask-Mandatory Performances",
     "filter_func": lambda inst, info: "MM" in info.flags_by_key.get(inst.local_key, set()),
 },
 ```
@@ -188,6 +206,7 @@ This document provides 15 ready-to-use filters you can copy directly into your `
 ```python
 "special-access": {
     "description": "Only performances with special flags (RP, MM, or AP)",
+        "cal_name": "Hamilton Fringe 2026 — Special Access Performances",
     "filter_func": lambda inst, info: bool(info.flags_by_key.get(inst.local_key, set())),
 },
 ```
@@ -200,6 +219,7 @@ This document provides 15 ready-to-use filters you can copy directly into your `
 ```python
 "staircase-evening": {
     "description": "Evening shows at The Staircase (7pm+)",
+        "cal_name": "Hamilton Fringe 2026 — Staircase Evenings",
     "filter_func": lambda inst, info: (
         "The Staircase" in inst.venue and
         inst.local_key is not None and
@@ -212,6 +232,7 @@ This document provides 15 ready-to-use filters you can copy directly into your `
 ```python
 "free-outdoor": {
     "description": "Free outdoor events only",
+        "cal_name": "Hamilton Fringe 2026 — Free Outdoor Events",
     "filter_func": lambda inst, info: (
         any(
             venue_keyword in inst.venue
@@ -227,6 +248,7 @@ This document provides 15 ready-to-use filters you can copy directly into your `
 ```python
 "paid-indoor-evening": {
     "description": "Paid indoor shows at 7pm or later",
+        "cal_name": "Hamilton Fringe 2026 — Paid Indoor Evenings",
     "filter_func": lambda inst, info: (
         not any(
             venue_keyword in inst.venue
@@ -244,6 +266,7 @@ This document provides 15 ready-to-use filters you can copy directly into your `
 ```python
 "family-theater": {
     "description": "No warnings + indoor only",
+        "cal_name": "Hamilton Fringe 2026 — Family Theatre",
     "filter_func": lambda inst, info: (
         not info.warnings and
         not any(
@@ -258,6 +281,7 @@ This document provides 15 ready-to-use filters you can copy directly into your `
 ```python
 "staircase-accessible": {
     "description": "Accessible performances (RP/MM/AP) at The Staircase",
+        "cal_name": "Hamilton Fringe 2026 — Staircase Accessible",
     "filter_func": lambda inst, info: (
         "The Staircase" in inst.venue and
         bool(info.flags_by_key.get(inst.local_key, set()))
