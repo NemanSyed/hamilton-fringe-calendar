@@ -90,8 +90,13 @@ DEBUG_INSTANCES_CSV = Path("debug_instances.csv")
 DEBUG_FLAGS_CSV = Path("debug_flags.csv")
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (compatible; HamiltonFringeCalendarBot/1.0; "
-    "personal-use calendar sync)"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
 }
 
 MONTHS = {
