@@ -1,5 +1,4 @@
 name: Update Fringe calendar
-
 on:
   schedule:
     # Runs daily at 12:00 UTC (~8am Toronto during EDT). Adjust as you like.
@@ -7,34 +6,27 @@ on:
   workflow_dispatch: {}   # lets you trigger it manually from the Actions tab
   push:
     branches: [ main ]     # also run on every push, so first setup is verifiable
-
 permissions:
   contents: write
-
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
       - name: Install dependencies
         run: pip install -r requirements.txt
-
       - name: Run offline logic tests (fails the build before touching the live site if broken)
         run: python test_offline.py
-
       - name: Run scraper against the live site
         run: python scraper.py --debug
-
       - name: Commit updated calendar if changed
         run: |
           git config user.name "fringe-calendar-bot"
           git config user.email "actions@users.noreply.github.com"
+          git fetch origin main
           git add docs/fringe*.ics debug_instances.csv debug_flags.csv
           git diff --cached --quiet || git commit -m "Update Fringe calendar $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-          git pull --rebase
-          git push
+          git push --force-with-lease origin main
