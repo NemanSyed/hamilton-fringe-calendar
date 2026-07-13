@@ -833,7 +833,7 @@ def main():
                     "RP/MM/AP on the live site", DEBUG_FLAGS_CSV)
 
     # Apply each filter and write an .ics file
-    OUTPUT_ICS.parent.mkdir(parents=True, exist_ok=True)
+    OUTPUT_ICS.mkdir(parents=True, exist_ok=True)
     
     for filter_name, filter_spec in FILTER_DEFINITIONS.items():
         description = filter_spec["description"]
@@ -848,7 +848,7 @@ def main():
         
         # Write the .ics file
         ics_text = write_ics(filtered_instances, shows, cal_name)
-        output_path = OUTPUT_ICS.parent / f"fringe-{filter_name}.ics"
+        output_path = OUTPUT_ICS / f"fringe-{filter_name}.ics"
         output_path.write_text(ics_text, encoding="utf-8")
         log.info(
             "Wrote %s (%d instances, %d bytes) — %s",
