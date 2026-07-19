@@ -5,298 +5,8 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Hamilton Fringe 2026 — Outdoor Events
 BEGIN:VEVENT
-UID:542fb09a05a99a400456a763727614f0eb613306@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
-DTSTART:20260718T153000Z
-DTEND:20260718T170000Z
-SUMMARY:Beading Workshop w/ Beadwork by Kay
-LOCATION:Fringe Boulevard\, King William St (between James St N and Hughson
-  St N)\, Hamilton\, ON
-DESCRIPTION:Company: HFTco (Hamilton)\nGenre: Free Outdoor Events\nShé:kon
- ! I'm Kaileigh and I am a Kanien'kehá:ka beadwork artist from Six Nations
-  currently residing in Hamilton ON. I am the owner and Artist behind Beadw
- ork By Kay creating small batch Haudenosaunee beadwork and I have been a w
- orkshop facilitator for the last 3 years providing beadwork classes throug
- hout the GTA. I am passionate about teaching and sharing the art of beadwo
- rk from both a historical and contemporary perspective while creating a su
- pportive and creative space for all to enjoy!\nGeneral Admission: $15\nMor
- e info: https://hftco.ca/events/beading-workshop-w-beadwork-by-kay/
-URL:https://hftco.ca/events/beading-workshop-w-beadwork-by-kay/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:9c786b2e6742d8b53d5d9550f8085069e3111c32@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
-DTSTART:20260718T160000Z
-DTEND:20260719T010000Z
-SUMMARY:Indigenous Marketplace
-LOCATION:Fringe Boulevard\, King William St (between James St N and Hughson
-  St N)\, Hamilton\, ON
-DESCRIPTION:Company: HFTco (Hamilton)\nGenre: Free Outdoor Events\nCheck ou
- t Indigenous artists and makers at our Indigenous Marketplace on Fringe Bo
- ulevard (King William St and James S N) from 12pm-9pm! You’ll find jewel
- lery\, ribbon skirts and shirts\, medallions\, and more.\nGeneral Admissio
- n: FREE\nMore info: https://hftco.ca/events/indigenous-marketplace-2/
-URL:https://hftco.ca/events/indigenous-marketplace-2/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:a75f37aaa2f5f162d34cb4077d1df85ace95e7bc@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
-DTSTART:20260718T173000Z
-DTEND:20260718T190000Z
-SUMMARY:Hamilton Cold Reads: Neechie Edish
-LOCATION:Fringe Boulevard\, King William St (between James St N and Hughson
-  St N)\, Hamilton\, ON
-DESCRIPTION:Company: HFTCo (Hamilton)\nGenre: Free Outdoor Events\nFollowin
- g the success of the first Hamilton Cold Reads at Frost Bites 2025\, Hamil
- ton Cold Reads: Neechie Edish is a showcase for new and in-progress script
- s - Indigenous Style! Directed by renowned theatre maker Nicole Joy-Fraser
- \, this is an event designed to foster a collaborative\, supportive and co
- mmunity-focused environment. A place to celebrate Indigenous joy and creat
- ion by engaging with the inner workings of script development!\nGeneral Ad
- mission: FREE\nMore info: https://hftco.ca/events/hamilton-cold-reads-neec
- hie-edish/
-URL:https://hftco.ca/events/hamilton-cold-reads-neechie-edish/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:3556327eb0dc7580c527d6b5af5b41dea3317d0d@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
-DTSTART:20260718T190000Z
-DTEND:20260718T201500Z
-SUMMARY:Fringe On The Streets – Outdoor Walking Tour
-LOCATION:Fringe On The Streets\, Tour departs Hamilton Farmers' Market\, 35
-  York Blvd\, Hamilton\, ON
-DESCRIPTION:Company: HFTco & City of Hamilton (Hamilton\, ON)\nContent warn
- ings: See Show Listings\nGenre: Walking Tour/Promenade\, Free Outdoor Even
- ts\nA FREE outdoor performance tour presented in partnership with the City
-  of Hamilton and Downtown Hamilton BIA.\nGeneral Admission: FREE\nMore inf
- o: https://hftco.ca/events/fringe-on-the-streets-outdoor-walking-tour/
-URL:https://hftco.ca/events/fringe-on-the-streets-outdoor-walking-tour/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:bf00980bcd4bc095979161f2313b1d25324728b5@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
-DTSTART:20260718T190000Z
-DTEND:20260718T191200Z
-SUMMARY:Paola Brown- The Town Crier of Hamilton
-LOCATION:Fringe On The Streets\, Tour departs Hamilton Farmers' Market\, 35
-  York Blvd\, Hamilton\, ON
-DESCRIPTION:Content warnings: Audience Participation\nGenre: Theatre—Dram
- a\, Walking Tour/Promenade\, Free Outdoor Events\nSTOP #5: Fringe Boulevar
- d (King William St & James St N)\nGeneral Admission: FREE\nMore info: http
- s://hftco.ca/events/paola-brown-the-town-crier-of-hamilton/
-URL:https://hftco.ca/events/paola-brown-the-town-crier-of-hamilton/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:288b16ab3ab8848b830b1ec9f8eb84185d125a39@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
-DTSTART:20260718T190000Z
-DTEND:20260718T191200Z
-SUMMARY:Project Fathering: Generations
-LOCATION:Fringe On The Streets\, Tour departs Hamilton Farmers' Market\, 35
-  York Blvd\, Hamilton\, ON
-DESCRIPTION:Genre: Storytelling/Solo Show\, Walking Tour/Promenade\, Free O
- utdoor Events\nSTOP #1: Hamilton Farmers' Market (35 York Blvd)\nGeneral A
- dmission: FREE\nMore info: https://hftco.ca/events/project-fathering-gener
- ations/
-URL:https://hftco.ca/events/project-fathering-generations/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:6dce58b74f91709db86bff675b0a5d38cba6f948@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
-DTSTART:20260718T190000Z
-DTEND:20260718T191200Z
-SUMMARY:The Hanging
-LOCATION:Fringe On The Streets\, Tour departs Hamilton Farmers' Market\, 35
-  York Blvd\, Hamilton\, ON
-DESCRIPTION:Company: Red Beti Theatre (Hamilton\, ON)\nContent warnings: Au
- dience Participation\nGenre: Theatre—Drama\, Walking Tour/Promenade\, Fr
- ee Outdoor Events\nSTOP #3: Parkette @ NE Corner of Wilson St & James St N
- \nGeneral Admission: FREE\nMore info: https://hftco.ca/events/the-hanging/
-URL:https://hftco.ca/events/the-hanging/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:eb14ba4a4799420cc16ab0eaeb1658ce9027a411@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
-DTSTART:20260718T190000Z
-DTEND:20260718T191200Z
-SUMMARY:Trash Bots
-LOCATION:Fringe On The Streets\, Tour departs Hamilton Farmers' Market\, 35
-  York Blvd\, Hamilton\, ON
-DESCRIPTION:Content warnings: Audience Participation\nGenre: Puppetry\, Wal
- king Tour/Promenade\, Free Outdoor Events\nSTOP #4: NE Corner of Rebecca S
- t & James St N\nGeneral Admission: FREE\nMore info: https://hftco.ca/event
- s/trash-bots/
-URL:https://hftco.ca/events/trash-bots/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:aec8fc9748f666b838e4d2f70ae460e26f493454@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
-DTSTART:20260718T190000Z
-DTEND:20260718T191200Z
-SUMMARY:Where to Lay My Head to Rest
-LOCATION:Fringe On The Streets\, Tour departs Hamilton Farmers' Market\, 35
-  York Blvd\, Hamilton\, ON
-DESCRIPTION:Content warnings: Audience Participation\, Discussion of Death\
- nGenre: Storytelling/Solo Show\, Walking Tour/Promenade\, Free Outdoor Eve
- nts\nSTOP #2: Parkette beside Latin Food & Products (91 James St N)\nGener
- al Admission: FREE\nMore info: https://hftco.ca/events/where-to-lay-my-hea
- d-to-rest/
-URL:https://hftco.ca/events/where-to-lay-my-head-to-rest/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:fd035f47237cfd9414613749028408af034c298a@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
-DTSTART:20260718T191500Z
-DTEND:20260718T204500Z
-SUMMARY:Zine Workshop with Emma Doreen
-LOCATION:Fringe Boulevard\, King William St (between James St N and Hughson
-  St N)\, Hamilton\, ON
-DESCRIPTION:Company: HFTco (Hamilton)\nGenre: Free Outdoor Events\nJoin Emm
- a in creating your own zine - a mini magazine that can reflect on personal
-  thoughts\, community action\, stories\, and more. With a focus on celebra
- ting Mother Earth\, you can participate in creative ways to express your c
- onnection to the natural world. Get inspired with collage and art material
- s and have fun with this DIY activity!\nGeneral Admission: FREE\nMore info
- : https://hftco.ca/events/zine-workshop-with-emma-doreen/
-URL:https://hftco.ca/events/zine-workshop-with-emma-doreen/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:4d0d8707903256aadd4fd48c6f3281925024e6dc@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
-DTSTART:20260718T210000Z
-DTEND:20260719T020000Z
-SUMMARY:Foodie Fringe
-LOCATION:Fringe Boulevard\, King William St (between James St N and Hughson
-  St N)\, Hamilton\, ON
-DESCRIPTION:Company: HFTco (Hamilton)\nGenre: Free Outdoor Events\nOn selec
- t nights from 5pm - 10pm\, Fringe Boulevard hosts a rotating lineup of loc
- al restaurants serving curated menus created especially for Fringe audienc
- es. Grab a bite\, discover a new favourite spot\, and enjoy great food alo
- ngside the energy and excitement of Fringe Boulevard.\nGeneral Admission: 
- FREE\nMore info: https://hftco.ca/events/foodie-fringe/
-URL:https://hftco.ca/events/foodie-fringe/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:8ebcd2f1255237b51ac4706b25248b096977e44e@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
-DTSTART:20260718T220000Z
-DTEND:20260718T231500Z
-SUMMARY:Fringe On The Streets – Outdoor Walking Tour
-LOCATION:Fringe On The Streets\, Tour departs Hamilton Farmers' Market\, 35
-  York Blvd\, Hamilton\, ON
-DESCRIPTION:Company: HFTco & City of Hamilton (Hamilton\, ON)\nContent warn
- ings: See Show Listings\nGenre: Walking Tour/Promenade\, Free Outdoor Even
- ts\nA FREE outdoor performance tour presented in partnership with the City
-  of Hamilton and Downtown Hamilton BIA.\nGeneral Admission: FREE\nMore inf
- o: https://hftco.ca/events/fringe-on-the-streets-outdoor-walking-tour/
-URL:https://hftco.ca/events/fringe-on-the-streets-outdoor-walking-tour/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:b30d50e90fa5c62a3def6a495d6ead8b78da69f8@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
-DTSTART:20260718T220000Z
-DTEND:20260718T221200Z
-SUMMARY:Paola Brown- The Town Crier of Hamilton
-LOCATION:Fringe On The Streets\, Tour departs Hamilton Farmers' Market\, 35
-  York Blvd\, Hamilton\, ON
-DESCRIPTION:Content warnings: Audience Participation\nGenre: Theatre—Dram
- a\, Walking Tour/Promenade\, Free Outdoor Events\nSTOP #5: Fringe Boulevar
- d (King William St & James St N)\nGeneral Admission: FREE\nMore info: http
- s://hftco.ca/events/paola-brown-the-town-crier-of-hamilton/
-URL:https://hftco.ca/events/paola-brown-the-town-crier-of-hamilton/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:5020c687f95886c907084289fd315afcfaedd5b5@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
-DTSTART:20260718T220000Z
-DTEND:20260718T221200Z
-SUMMARY:Project Fathering: Generations
-LOCATION:Fringe On The Streets\, Tour departs Hamilton Farmers' Market\, 35
-  York Blvd\, Hamilton\, ON
-DESCRIPTION:Genre: Storytelling/Solo Show\, Walking Tour/Promenade\, Free O
- utdoor Events\nSTOP #1: Hamilton Farmers' Market (35 York Blvd)\nGeneral A
- dmission: FREE\nMore info: https://hftco.ca/events/project-fathering-gener
- ations/
-URL:https://hftco.ca/events/project-fathering-generations/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:5ef9a84786a339a434a0337bb3a079c4b52c89f6@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
-DTSTART:20260718T220000Z
-DTEND:20260718T221200Z
-SUMMARY:The Hanging
-LOCATION:Fringe On The Streets\, Tour departs Hamilton Farmers' Market\, 35
-  York Blvd\, Hamilton\, ON
-DESCRIPTION:Company: Red Beti Theatre (Hamilton\, ON)\nContent warnings: Au
- dience Participation\nGenre: Theatre—Drama\, Walking Tour/Promenade\, Fr
- ee Outdoor Events\nSTOP #3: Parkette @ NE Corner of Wilson St & James St N
- \nGeneral Admission: FREE\nMore info: https://hftco.ca/events/the-hanging/
-URL:https://hftco.ca/events/the-hanging/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:a2893d9651cc6e823f2877c1dd1203e2c1c6b096@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
-DTSTART:20260718T220000Z
-DTEND:20260718T221200Z
-SUMMARY:Trash Bots
-LOCATION:Fringe On The Streets\, Tour departs Hamilton Farmers' Market\, 35
-  York Blvd\, Hamilton\, ON
-DESCRIPTION:Content warnings: Audience Participation\nGenre: Puppetry\, Wal
- king Tour/Promenade\, Free Outdoor Events\nSTOP #4: NE Corner of Rebecca S
- t & James St N\nGeneral Admission: FREE\nMore info: https://hftco.ca/event
- s/trash-bots/
-URL:https://hftco.ca/events/trash-bots/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:5eeb31e6017274a17c5d770a76feae2ec2a55f9c@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
-DTSTART:20260718T220000Z
-DTEND:20260718T221200Z
-SUMMARY:Where to Lay My Head to Rest
-LOCATION:Fringe On The Streets\, Tour departs Hamilton Farmers' Market\, 35
-  York Blvd\, Hamilton\, ON
-DESCRIPTION:Content warnings: Audience Participation\, Discussion of Death\
- nGenre: Storytelling/Solo Show\, Walking Tour/Promenade\, Free Outdoor Eve
- nts\nSTOP #2: Parkette beside Latin Food & Products (91 James St N)\nGener
- al Admission: FREE\nMore info: https://hftco.ca/events/where-to-lay-my-hea
- d-to-rest/
-URL:https://hftco.ca/events/where-to-lay-my-head-to-rest/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:ffd875ec89c61740da7dab3b8a25f3224e5abb55@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
-DTSTART:20260718T230000Z
-DTEND:20260719T023000Z
-SUMMARY:Neechie Boulevard: Mainstage Series
-LOCATION:Fringe Boulevard\, King William St (between James St N and Hughson
-  St N)\, Hamilton\, ON
-DESCRIPTION:Company: HFTCo (Hamilton)\nGenre: Free Outdoor Events\nNeechie 
- Boulevard is wrapping up with BANGERS! Featuring Thea May with special gue
- sts Velvet Valentine and Eat Worms.\nGeneral Admission: FREE\nMore info: h
- ttps://hftco.ca/events/neechie-boulevard-mainstage-series/
-URL:https://hftco.ca/events/neechie-boulevard-mainstage-series/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:ee564cfcb3bc221f7889b7278f523ed747f97340@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260719T160000Z
 DTEND:20260720T010000Z
 SUMMARY:Fringe Boulevard Marketplace
@@ -314,7 +24,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:bd99ae772f064c799c8de719e5e1b1e8ffe51e34@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260719T190000Z
 DTEND:20260719T220000Z
 SUMMARY:Bob Ross Paint-Along
@@ -331,7 +41,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:9b3cb365e4ee09afd408f896a1f6ccbc4037b2a1@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260719T190000Z
 DTEND:20260719T201500Z
 SUMMARY:Fringe On The Streets – Outdoor Walking Tour
@@ -347,7 +57,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:49cd64dcc6d06f608543c46f920a584efd1f951e@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260719T190000Z
 DTEND:20260719T191200Z
 SUMMARY:Paola Brown- The Town Crier of Hamilton
@@ -362,7 +72,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:bca49df0d37331617e240e3a7ffb304079a00bc0@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260719T190000Z
 DTEND:20260719T191200Z
 SUMMARY:Project Fathering: Generations
@@ -377,7 +87,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:94ac71a9b26e2cd9eb37e39711f80df360754f3f@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260719T190000Z
 DTEND:20260719T191200Z
 SUMMARY:The Hanging
@@ -392,7 +102,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:d585b23a2af75328f6ff321e9546592c8b3b0010@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260719T190000Z
 DTEND:20260719T191200Z
 SUMMARY:Trash Bots
@@ -407,7 +117,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:9bbd5f59f69b5e6724a6d87b502b91ad4a03ecf9@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260719T190000Z
 DTEND:20260719T191200Z
 SUMMARY:Where to Lay My Head to Rest
@@ -423,7 +133,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:3094087cdab7fbfff573e4ae20ecc54eaeb91b9b@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260719T223000Z
 DTEND:20260720T020000Z
 SUMMARY:Sunday Night Karaoke hosted by Grace Lamarche
@@ -439,7 +149,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:a08b626caae934fd7a6cc0478886618dcaa410bb@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260720T230000Z
 DTEND:20260721T010000Z
 SUMMARY:Heated Rivalry Trivia hosted by Franny McCabe-Bennett
@@ -458,7 +168,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:542f1cd0354ab36a5d14eeca3a5ef85626a174c3@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260721T160000Z
 DTEND:20260722T010000Z
 SUMMARY:Community Book Swap (Take a Book\, Leave a Book!)
@@ -475,7 +185,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:58390578d621bcd35cb811656f1552455aaefc71@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260721T230000Z
 DTEND:20260722T010000Z
 SUMMARY:The 1st Annual Hamilton Fringe Spelling Bee hosted by VJM
@@ -493,7 +203,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:70b6a64696d1ac4733d69b446af38a982e2d4e40@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260722T160000Z
 DTEND:20260722T170000Z
 SUMMARY:HPO Downtown Summer Concert Series
@@ -513,7 +223,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:e52a60be4b72cb1a35af1c1f84e48457407780de@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260722T210000Z
 DTEND:20260722T230000Z
 SUMMARY:Keeping Six Open Mic presented by Hamilton Community Foundation
@@ -532,7 +242,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:4b6c7a1bfa188d006fa1180728ca658442a46b10@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260722T230000Z
 DTEND:20260723T023000Z
 SUMMARY:Sidewalk Cinema: Taylor Swift’s Eras Tour (The Final Show)
@@ -550,7 +260,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:8421cdabd8a426ac804cbb6834f2a114516bcf25@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260723T010000Z
 DTEND:20260723T030000Z
 SUMMARY:Films On The Fringe: Shorts Showcase presented by DTBIA (RESCHEDULE
@@ -570,7 +280,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:4978ed8496e101a337ee6c47d00d7f5b5085c932@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260723T210000Z
 DTEND:20260724T020000Z
 SUMMARY:Foodie Fringe
@@ -587,7 +297,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:e50ff8b46ea0108c344234a3796825134f05886c@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260723T220000Z
 DTEND:20260723T231500Z
 SUMMARY:Fringe On The Streets – Outdoor Walking Tour
@@ -603,7 +313,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:721b10f08de3a27ff2ced3f62b91d0bfbf2c1faa@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260723T220000Z
 DTEND:20260723T221200Z
 SUMMARY:Paola Brown- The Town Crier of Hamilton
@@ -618,7 +328,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:13198df26560084df849c42e35cddcd1dbfccb56@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260723T220000Z
 DTEND:20260723T221200Z
 SUMMARY:Project Fathering: Generations
@@ -633,7 +343,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:5b516fe9898a533b672033410d7347eedc4a6144@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260723T220000Z
 DTEND:20260723T221200Z
 SUMMARY:The Hanging
@@ -648,7 +358,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:988ee16e831f076eb841c4a52499a47e7f41a331@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260723T220000Z
 DTEND:20260723T221200Z
 SUMMARY:Trash Bots
@@ -663,7 +373,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:f34b94f5714880eb9f4641387c0ca02a9410ab7b@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260723T220000Z
 DTEND:20260723T221200Z
 SUMMARY:Where to Lay My Head to Rest
@@ -679,7 +389,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:9ca66f06e3859a8b7343d670210e185fdeccfd52@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260723T233000Z
 DTEND:20260724T020000Z
 SUMMARY:Salsa Lessons & Salsa Under the Stars w/ SalsaSoul
@@ -695,7 +405,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:eeaafce810080a628407e92c2eb2b4dce3e84f49@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260724T020000Z
 DTEND:20260724T060000Z
 SUMMARY:Salsa After-Party at The Mule
@@ -711,7 +421,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:c6ce4b34ece6058e0e7575e265713651d1eecf88@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260724T160000Z
 DTEND:20260724T170000Z
 SUMMARY:Live Music w/ Paletta Mansion
@@ -727,8 +437,24 @@ URL:https://hftco.ca/events/live-music-paletta-mansion/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:67e8d8c0f1773fc9e5476eff83cc914c2f653365@hamilton-fringe-calendar
+DTSTAMP:20260719T130846Z
+DTSTART:20260724T210000Z
+DTEND:20260724T230000Z
+SUMMARY:Live Music w/ Louise Concepcion & Vienna Johnson
+LOCATION:Fringe Boulevard\, King William St (between James St N and Hughson
+  St N)\, Hamilton\, ON
+DESCRIPTION:Company: HFTco (Hamilton)\nGenre: Free Outdoor Events\nFeaturin
+ g local musicians Louise Concepcion and Vienna Johnson\, join us as the st
+ reets are filled with sunshine and live music!\nGeneral Admission: FREE\nM
+ ore info: https://hftco.ca/events/live-music-w-louise-concepcion-vienna-jo
+ hnson/
+URL:https://hftco.ca/events/live-music-w-louise-concepcion-vienna-johnson/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:b3e75e3acd10841fe293294835142b879669f8fd@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260724T210000Z
 DTEND:20260725T020000Z
 SUMMARY:Foodie Fringe
@@ -744,24 +470,8 @@ URL:https://hftco.ca/events/foodie-fringe/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:67e8d8c0f1773fc9e5476eff83cc914c2f653365@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
-DTSTART:20260724T210000Z
-DTEND:20260724T230000Z
-SUMMARY:Live Music w/ Louise Concepcion & Vienna Johnson
-LOCATION:Fringe Boulevard\, King William St (between James St N and Hughson
-  St N)\, Hamilton\, ON
-DESCRIPTION:Company: HFTco (Hamilton)\nGenre: Free Outdoor Events\nFeaturin
- g local musicians Louise Concepcion and Vienna Johnson\, join us as the st
- reets are filled with sunshine and live music!\nGeneral Admission: FREE\nM
- ore info: https://hftco.ca/events/live-music-w-louise-concepcion-vienna-jo
- hnson/
-URL:https://hftco.ca/events/live-music-w-louise-concepcion-vienna-johnson/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:2831b1ce286f887109c9ad03f9738cdb23c32aad@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260724T220000Z
 DTEND:20260724T231500Z
 SUMMARY:Fringe On The Streets – Outdoor Walking Tour
@@ -777,7 +487,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:6004c2efa337520f6f79401298475dd6c2918aad@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260724T220000Z
 DTEND:20260724T221200Z
 SUMMARY:Paola Brown- The Town Crier of Hamilton
@@ -792,7 +502,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:ee7abc642cea46e7039ccc87ab9ea4e2dbc34a63@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260724T220000Z
 DTEND:20260724T221200Z
 SUMMARY:Project Fathering: Generations
@@ -807,7 +517,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:4cfc977f3eefa13bfe5259d1dd8b3c9b9f89cf61@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260724T220000Z
 DTEND:20260724T221200Z
 SUMMARY:The Hanging
@@ -822,7 +532,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:312a35811ee50565e6cbc0b2dfe97ead30440a96@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260724T220000Z
 DTEND:20260724T221200Z
 SUMMARY:Trash Bots
@@ -837,7 +547,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:9ca115457504549337d33932154d3b234d46dfe1@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260724T220000Z
 DTEND:20260724T221200Z
 SUMMARY:Where to Lay My Head to Rest
@@ -853,7 +563,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:a6ff36634c499a03fca0f301e9cea5ba8885db3c@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260724T233000Z
 DTEND:20260725T023000Z
 SUMMARY:Live Band Karaoke w/ The Approximators presented by Findlay Law
@@ -871,7 +581,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:adecff70f0f7882359d251b1075ad3604ccc55db@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260725T150000Z
 DTEND:20260725T154500Z
 SUMMARY:Interactive Hand Drum Circle W/ Auntie Social Singers
@@ -892,7 +602,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:1479623c7c395b11eb39eea5d4e5d5ac54563306@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260725T200000Z
 DTEND:20260725T211500Z
 SUMMARY:Fringe On The Streets – Outdoor Walking Tour
@@ -908,7 +618,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:211cdec9aed2f08d4ed9d24a5aff8dacd44ffcab@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260725T200000Z
 DTEND:20260725T201200Z
 SUMMARY:Paola Brown- The Town Crier of Hamilton
@@ -923,7 +633,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:17e50ee1981cf73f3cf7737bb0c4b65ccb0a8440@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260725T200000Z
 DTEND:20260725T201200Z
 SUMMARY:Project Fathering: Generations
@@ -938,7 +648,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:3b00202e1bafe3e5c8f02bea408ad8255473159b@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260725T200000Z
 DTEND:20260725T201200Z
 SUMMARY:The Hanging
@@ -953,7 +663,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:488ccee3fcde11de77688b2c03a510be9ab4a26e@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260725T200000Z
 DTEND:20260725T201200Z
 SUMMARY:Trash Bots
@@ -968,7 +678,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:4b711e0e01e4dc96f0327a016e2f87223f7d1d91@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260725T200000Z
 DTEND:20260725T201200Z
 SUMMARY:Where to Lay My Head to Rest
@@ -984,7 +694,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:4cf63df711c096b6b10e6b05e4139f4cced12d11@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260725T210000Z
 DTEND:20260726T000000Z
 SUMMARY:Karaoke for Kids\, Teens\, and In-Betweens
@@ -1000,7 +710,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:5e01580cfb1f299af8b5936867861f5d3b8ea6d3@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260725T210000Z
 DTEND:20260726T020000Z
 SUMMARY:Foodie Fringe
@@ -1017,7 +727,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:01352fc95e4fb55880d2d372750c3280b9535f41@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260725T213000Z
 DTEND:20260725T230000Z
 SUMMARY:PickleCasso Portraits with The Pickle Fairy
@@ -1034,7 +744,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:63faaa75f5a88c96ce5c3de0331cd91211f5b1e3@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260725T230000Z
 DTEND:20260726T001500Z
 SUMMARY:Fringe On The Streets – Outdoor Walking Tour
@@ -1050,7 +760,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:c19f290cbd20c2cec826b82f05de4540e9717b9d@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260725T230000Z
 DTEND:20260725T231200Z
 SUMMARY:Paola Brown- The Town Crier of Hamilton
@@ -1065,7 +775,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:884b94a3519d3d27b77f9fb3ee020719d0ce347b@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260725T230000Z
 DTEND:20260725T231200Z
 SUMMARY:Project Fathering: Generations
@@ -1080,7 +790,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:f257d2e51f8235436f7658ae6fb6887626b631ae@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260725T230000Z
 DTEND:20260725T231200Z
 SUMMARY:The Hanging
@@ -1095,7 +805,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:1a0443d3d464054f1787850d87bc2364eae3c8f8@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260725T230000Z
 DTEND:20260725T231200Z
 SUMMARY:Trash Bots
@@ -1110,7 +820,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:2b1fefca3d48058cbdecfce4303ea968563692cd@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260725T230000Z
 DTEND:20260725T231200Z
 SUMMARY:Where to Lay My Head to Rest
@@ -1126,7 +836,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:822b220af9d86df0831cce390e45e22342be791d@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260725T233000Z
 DTEND:20260726T023000Z
 SUMMARY:Bands on the Boulevard w/ Meteor Heist
@@ -1143,7 +853,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:1c8e0ca71a59a6f25666271c182c500ebf9cdfb4@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260726T140000Z
 DTEND:20260726T144500Z
 SUMMARY:Leaving the Lilypad w/ Gary Hillis
@@ -1159,7 +869,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:70225e1eabe035014a53446a35d02b5a00e8533c@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260726T160000Z
 DTEND:20260726T170000Z
 SUMMARY:Live Music w/ Paletta Mansion
@@ -1176,7 +886,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:fc88450346e0f9e02f2a962a7bf7cc99fb320c5b@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260726T170000Z
 DTEND:20260726T200000Z
 SUMMARY:Crafts on the Boulevard
@@ -1193,7 +903,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:0360414088cc55beace6a35ecfda25a29613f89c@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260726T190000Z
 DTEND:20260726T201500Z
 SUMMARY:Fringe On The Streets – Outdoor Walking Tour
@@ -1209,7 +919,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:1b01e0b9bd25b7ddf4d1be86abe991c74aaea4a4@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260726T190000Z
 DTEND:20260726T191200Z
 SUMMARY:Paola Brown- The Town Crier of Hamilton
@@ -1224,7 +934,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:a145fb6bc8a9e249aa3c856ea76e6c41c20ccde2@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260726T190000Z
 DTEND:20260726T191200Z
 SUMMARY:Project Fathering: Generations
@@ -1239,7 +949,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:ef7b753f6fba6fccfe0c0c174f6eae243754c783@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260726T190000Z
 DTEND:20260726T191200Z
 SUMMARY:The Hanging
@@ -1254,7 +964,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:1c7c9d54d9c25ac127c87a4406e9d1c5f2a3e7a0@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260726T190000Z
 DTEND:20260726T191200Z
 SUMMARY:Trash Bots
@@ -1269,7 +979,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:4fed9017e991eb7e4ad63b3252b66fbf83c0f6ed@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260726T190000Z
 DTEND:20260726T191200Z
 SUMMARY:Where to Lay My Head to Rest
@@ -1285,7 +995,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:d4329b83ae1fc43fe1685c10613460c1ba2b380a@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260726T210000Z
 DTEND:20260727T020000Z
 SUMMARY:Foodie Fringe
@@ -1302,7 +1012,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:a07441f9c411eea375516999a565d4edfe7ca9cb@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260726T233000Z
 DTEND:20260727T010000Z
 SUMMARY:Closing Night Pre Show w/ DJ Spiritwalker
@@ -1319,7 +1029,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:f77ceb637f6047a2acbad79129552a67f121c8da@hamilton-fringe-calendar
-DTSTAMP:20260718T130611Z
+DTSTAMP:20260719T130846Z
 DTSTART:20260727T010000Z
 DTEND:20260727T030000Z
 SUMMARY:Closing Night Awards Party w/ Karma Kameleon
