@@ -69,7 +69,7 @@ Choose one of these options:
 
 ### Option B: Switch to filtered subscription (recommended)
 - [ ] Unsubscribe from old `fringe.ics` URL in your calendar app
-- [ ] Subscribe to new URL: `https://<your-username>.github.io/<repo-name>/fringe-no-cancelled.ics`
+- [ ] Subscribe to new URL: `https://nemansyed.github.io/<repo-name>/fringe-no-cancelled.ics`
 - [ ] Verify it appears in your calendar with correct events
 
 ### Option C: Subscribe to multiple calendars (advanced)
@@ -82,11 +82,10 @@ Choose one of these options:
 ## Phase 5: Share With Friends (2 minutes)
 
 - [ ] Send your friends the new calendar URLs based on their interests:
-  - **"Everything"** → `https://<your-username>.github.io/<repo-name>/fringe-all.ics`
-  - **"No cancelled"** → `https://<your-username>.github.io/<repo-name>/fringe-no-cancelled.ics`
-  - **"Plays only"** → `https://<your-username>.github.io/<repo-name>/fringe-plays-only.ics`
-  - **"Outdoor only"** → `https://<your-username>.github.io/<repo-name>/fringe-outdoor-only.ics`
-
+  - **"Everything"** → `https://NemanSyed.github.io/hamilton-fringe-calendar/fringe-all.ics`
+  - **"No cancelled"** → `https://NemanSyed.github.io/hamilton-fringe-calendar/fringe-no-cancelled.ics`
+  - **"Plays only"** → `https://NemanSyed.github.io/hamilton-fringe-calendar/fringe-plays-only.ics`
+  - **"Outdoor only"** → `https://NemanSyed.github.io/hamilton-fringe-calendar/fringe-outdoor-only.ics`
 - [ ] Let them know they can also subscribe to multiple calendars at once
 
 ---
