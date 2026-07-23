@@ -5,444 +5,8 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Hamilton Fringe 2026 — No Cancellations
 BEGIN:VEVENT
-UID:70b6a64696d1ac4733d69b446af38a982e2d4e40@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260722T160000Z
-DTEND:20260722T170000Z
-SUMMARY:HPO Downtown Summer Concert Series
-LOCATION:Fringe Boulevard\, King William St (between James St N and Hughson
-  St N)\, Hamilton\, ON
-DESCRIPTION:Company: Hamilton Philharmonic Orchestra (Hamilton)\nGenre: Fre
- e Outdoor Events\, Family Programming\nThe Hamilton Philharmonic Orchestra
-  has a 140-year history of making and celebrating music in all corners of 
- our city and we are proud to call downtown Hamilton our home. In summer 20
- 26 we are thrilled to present a free\, bi-weekly concert series on King Wi
- lliam Street in the heart of downtown. Join us every second and fourth Wed
- nesday of June\, July and August at noon as we turn King William Street in
- to the perfect afternoon patio with HPO ensembles.\nGeneral Admission: FRE
- E\nMore info: https://hftco.ca/events/hpo-downtown-summer-concert-series/
-URL:https://hftco.ca/events/hpo-downtown-summer-concert-series/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:2b272ff9950aeb63274e58ea38023d39bbf21604@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260722T160000Z
-DTEND:20260723T010000Z
-SUMMARY:Community Book Swap (Take a Book\, Leave a Book!) [RESCHEDULED]
-LOCATION:Fringe Boulevard\, King William St (between James St N and Hughson
-  St N)\, Hamilton\, ON
-DESCRIPTION:Company: HFTco (Hamilton)\nGenre: Free Outdoor Events\, Family 
- Programming\nAre you in the market for a juicy summer read? Do you have a 
- growing pile of books you’ve already read? Come down to Fringe Boulevard
-  for our first ever Community Book Swap with our take a book\, leave a boo
- k policy!\nGeneral Admission: FREE\nMore info: https://hftco.ca/events/com
- munity-book-swap-take-a-book-leave-a-book/
-URL:https://hftco.ca/events/community-book-swap-take-a-book-leave-a-book/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:e52a60be4b72cb1a35af1c1f84e48457407780de@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260722T210000Z
-DTEND:20260722T230000Z
-SUMMARY:Keeping Six Open Mic presented by Hamilton Community Foundation
-LOCATION:Fringe Boulevard\, King William St (between James St N and Hughson
-  St N)\, Hamilton\, ON
-DESCRIPTION:Company: Keeping Six (Hamilton)\nGenre: Free Outdoor Events\nKe
- eping Six Hamilton is the Hamilton Harm Reduction Action League that defen
- ds the rights\, dignity and humanity of people who are struggling with add
- iction. Keeping Six Open Mic Night is an evening that provides members of 
- the K6 community the platform to share their writings and lived experience
-  to an audience.\nGeneral Admission: FREE\nMore info: https://hftco.ca/eve
- nts/keeping-six-open-mic-presented-by-hamilton-community-foundation/
-URL:https://hftco.ca/events/keeping-six-open-mic-presented-by-hamilton-comm
- unity-foundation/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:e9e84032c264173a9c8a56c35b69e7296cb1732d@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260722T220000Z
-DTEND:20260722T230000Z
-SUMMARY:The Outlaw and the Son
-LOCATION:The Westdale\, 1014 King St W\, Hamilton\, ON
-DESCRIPTION:Company: FirstRodeo (Gatineau\, QC)\nContent warnings: Adult th
- emes including descriptions of violence\nGenre: Theatre—Drama\, Musical/
- Concert/Opera\, Storytelling/Solo Show\nThrough an eerie combination of st
- ory and live music set in an otherworldly place\, a weathered cowboy lays 
- bare his haunted past\, straining against an encroaching hope in the darkn
- ess. Written\, directed\, and performed by the Gatineau-based Tony Martins
- \, OATS is an eerily ambient fusion of “western rock” music and tall c
- owboy tales. Acclaimed Hamilton-based guitarist Andrew Aldridge joins Mart
- ins on stage to help create a lush\, dark\, and atmospheric soundscape fro
- m two electric guitars in a musical conversation.\nGeneral Admission: $14\
- nMore info: https://hftco.ca/events/the-outlaw-and-the-son/
-URL:https://hftco.ca/events/the-outlaw-and-the-son/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:4935c4eebaa2dd3237e704abeba2d0205d6fc4e4@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260722T220000Z
-DTEND:20260722T230000Z
-SUMMARY:Mark II
-LOCATION:The Gasworks\, 141 Park St N\, Hamilton\, ON
-DESCRIPTION:Company: Thomas Bates Productions (Oshawa\, ON)\nContent warnin
- gs: Violence\nGenre: Storytelling/Solo Show\, Family Programming\nIf you m
- issed part one\, all will be explained!..\nGeneral Admission: $14\nMore in
- fo: https://hftco.ca/events/mark-ii/
-URL:https://hftco.ca/events/mark-ii/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:1c3fa0ad2e84f81247947d45454d52dff4dc793e@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260722T220000Z
-DTEND:20260722T233000Z
-SUMMARY:GO
-LOCATION:Mills Hardware\, 95 King St E\, Hamilton\, ON
-DESCRIPTION:Company: Pitchin'in Productions (Toronto\, ON)\nContent warning
- s: Coarse Language\nGenre: Theatre—Comedy\, Storytelling/Solo Show\n“G
- O” is the story of a 336km journey that no one asked Laura Piccinin to g
- o on.\nGeneral Admission: $14\nMore info: https://hftco.ca/events/go/
-URL:https://hftco.ca/events/go/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:f0552a5b8274fa16c150494e04b41a614b9159ef@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260722T221500Z
-DTEND:20260722T231500Z
-SUMMARY:LOVE & CRAÍC
-LOCATION:The Staircase | Studio Theatre\, 27 Dundurn St N\, Hamilton\, ON
-DESCRIPTION:Company: Squirrel Suit Productions (Hamilton\, ON)\nSpecial: Ma
- sk-Mandatory Performance\, Relaxed Performance\nContent warnings: Sexual C
- ontent\, Coarse Language\nGenre: Theatre—Comedy\, Storytelling/Solo Show
- \nStoryteller Carlyn Rhamey (The ADHD Project) takes you on a Celtic adven
- ture like no other. Perilous cliffs\, handsome rebels\, Viking ghosts\, an
- d underpants gone rogue! This award-winning show (SAOR) returns\, bolder a
- nd wilder than ever. Lost in Ireland. In love in Scotland. In trouble ...e
- verywhere.\nGeneral Admission: $14\nMore info: https://hftco.ca/events/lov
- e-craic/
-URL:https://hftco.ca/events/love-craic/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:8460c6e7fb5fab0fe4e6aa570010587c59c194e8@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260722T221500Z
-DTEND:20260722T230500Z
-SUMMARY:There is No Anger Like That of a Woman
-LOCATION:Theatre Aquarius Studio\, 190 King William St\, Hamilton\, ON
-DESCRIPTION:Company: Of The Sea Productions (Toronto\, ON)\nContent warning
- s: Sexual Content\, Coarse Language\, discussion of sexual assault & misog
- yny\, religious criticism\, and partial nudity\nGenre: Theatre—Drama\nWh
- en a banker walks into a brothel and pays for an hour with the most expens
- ive woman\, what he gets is not what either of them expected. Witty\, furi
- ous\, and addictively intimate\, There Is No Anger Like That of a Woman is
-  a show about desire\, power\, and a woman playing an unbeatable game.\nGe
- neral Admission: $14\nMore info: https://hftco.ca/events/there-is-no-anger
- -like-that-of-a-woman/
-URL:https://hftco.ca/events/there-is-no-anger-like-that-of-a-woman/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:78d08eabd7a78132947ff4d785373304ded49e1f@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260722T221500Z
-DTEND:20260722T231500Z
-SUMMARY:Notes From Underground
-LOCATION:The Players’ Guild of Hamilton\, 80 Queen St S\, Hamilton\, ON
-DESCRIPTION:Company: A Drama Studio (Mississauga\, ON)\nContent warnings: S
- exual Content\, Coarse Language\, Violence\nGenre: Theatre—Drama\nThe Un
- derground Man has spent the past 20 years living in a squalid corner of St
- . Petersburg in bitter\, self-imposed isolation. Join him as he grapples w
- ith something terrible he did on a dirty\, snowy\, night 15 years ago... P
- erformed by a cast of 7\, this adaptation of Dostoevsky’s classic invite
- s you to consider: what's the price of arrogance? Can you accept love if y
- ou're a tyrant? What is the way out of “the Underground”?\nGeneral Adm
- ission: $14\nMore info: https://hftco.ca/events/notes-from-underground/
-URL:https://hftco.ca/events/notes-from-underground/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:138876f9c69862c3c41f1602d247c54ead3b313b@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260722T230000Z
-DTEND:20260723T000000Z
-SUMMARY:DND Live: Camp DieNoMore
-LOCATION:The Staircase | Bright Room\, 27 Dundurn St N\, Hamilton\, ON
-DESCRIPTION:Company: DND Live (Hamilton\, ON)\nGenre: Theatre—Comedy\, Sk
- etch Comedy/Improv\nA band of young heroes face the greatest foe imaginabl
- e: sleep away summer camp. Join six Hamiltonian improvizers for a chaotic 
- evening of collaborative storytelling\, made up on the spot! It's live DND
- \, baby!\nGeneral Admission: $14\nMore info: https://hftco.ca/events/dnd-l
- ive-camp-dienomore/
-URL:https://hftco.ca/events/dnd-live-camp-dienomore/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:a36c835e205bef5aad5bbb5b38d2d1f16cccdb99@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260722T233000Z
-DTEND:20260723T003000Z
-SUMMARY:“Kill Me Now” – The Teaching Confessions of an Undercover Cre
- ative
-LOCATION:The Gasworks\, 141 Park St N\, Hamilton\, ON
-DESCRIPTION:Company: Mermusetmc (St. Catharines\, ON)\nContent warnings: Se
- xual Content\, Coarse Language\nGenre: Theatre—Comedy\, Storytelling/Sol
- o Show\nSchool is personal. This is my story\, a reluctant teacher's tale 
- of what it truly feels like to be on the frontlines\, before a firing squa
- d of angry\, un-captivated\, often unloved teens for the past 25 years.\nG
- eneral Admission: $14\nMore info: https://hftco.ca/events/kill-me-now-the-
- teaching-confessions-of-an-undercover-creative/
-URL:https://hftco.ca/events/kill-me-now-the-teaching-confessions-of-an-unde
- rcover-creative/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:8a781fa6b67fcae7472398e1eeb0bd25b48074eb@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260722T233000Z
-DTEND:20260723T003000Z
-SUMMARY:1 Million Served- Years Well Waitressed
-LOCATION:The Staircase | Elaine May\, 27 Dundurn St N\, Hamilton\, ON
-DESCRIPTION:Company: Outport Productions (Hamilton\, ON)\nContent warnings:
-  Sexual Content\, Coarse Language\nGenre: Storytelling/Solo Show\nAfter 35
-  years of waitressing\, Wanda’s seen it all—first dates\, last chances
- \, celebrations\, heartbreaks\, and everything in between. Now\, she’s s
- tepping out from behind the table and into the spotlight with a one-woman 
- show that serves up stories rich with life lessons\, humour\, and her unde
- niable Newfoundland charm.\nGeneral Admission: $14\nMore info: https://hft
- co.ca/events/1-million-served-years-well-waitressed/
-URL:https://hftco.ca/events/1-million-served-years-well-waitressed/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:30a8535bded835475a03a89b31fc5d4801ade87a@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260722T233000Z
-DTEND:20260723T010000Z
-SUMMARY:Awake and Dreaming
-LOCATION:The Westdale\, 1014 King St W\, Hamilton\, ON
-DESCRIPTION:Company: SJMD (Hamilton\, ON)\nContent warnings: Depictions of 
- family conflict\nGenre: Musical/Concert/Opera\, Family Programming\nBased 
- on the award-winning novel by Kit Pearson\, Awake and Dreaming follows The
- o\, a child living in poverty with her young\, irresponsible mother Rae in
-  Vancouver. When Theo meets the seemingly perfect Kaldor family on the fer
- ry and desperately wishes she could be part of them. The magic that follow
- s teaches her about family\, stories\, and the beautiful imperfections of 
- life.\nGeneral Admission: $14\nMore info: https://hftco.ca/events/awake-an
- d-dreaming/
-URL:https://hftco.ca/events/awake-and-dreaming/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:9bb491f5fe5a227f7edbd0c352d1ebc53bc2129b@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260722T234500Z
-DTEND:20260723T005000Z
-SUMMARY:Felt Cute\, Might Overshare Later
-LOCATION:The Staircase | Studio Theatre\, 27 Dundurn St N\, Hamilton\, ON
-DESCRIPTION:Company: Kristi Boulton Presents... (Hamilton\, ON)\nContent wa
- rnings: Sexual Content\, Coarse Language\nGenre: Theatre—Comedy\, Puppet
- ry\, Storytelling/Solo Show\nWhat do you do when your most embarrassing st
- ories are also your best ones? You get a puppet to tell them for you. Felt
-  Cute\, Might Overshare Later! is a solo comedy confessional where Kristi 
- and her felt alter-ego revisit a lifetime of cringeworthy\, 100% true disa
- sters\, from childhood catastrophes to romantic misfires so spectacular th
- ey almost don't seem real. Funny\, weird\, and sneakily heartfelt. The pup
- pet has no shame. The woman has plenty.\nGeneral Admission: $14\nMore info
- : https://hftco.ca/events/felt-cute-might-overshare-later/
-URL:https://hftco.ca/events/felt-cute-might-overshare-later/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:194579cd85e5ca133b83beb0b900a6b7ba7b6e21@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260722T234500Z
-DTEND:20260723T004500Z
-SUMMARY:Intro to Adult Acting
-LOCATION:The Players’ Guild of Hamilton\, 80 Queen St S\, Hamilton\, ON
-DESCRIPTION:Company: We Tried Theatre Inc. (Burlington\, ON)\nContent warni
- ngs: Coarse Language\nGenre: Theatre—Comedy\nIntro to Adult Acting is a 
- heartfelt and humorous ensemble piece inspired by the real-life experience
- s of a group of adults who met in an acting class. As they navigate nerves
- \, vulnerability\, and unexpected joy\, they discover the power of steppin
- g outside their comfort zones. Warm\, relatable\, and uplifting\, this sho
- w is a celebration of creativity\, connection\, and the courage to try som
- ething new—at any stage of life.\nGeneral Admission: $14\nMore info: htt
- ps://hftco.ca/events/intro-to-adult-acting/
-URL:https://hftco.ca/events/intro-to-adult-acting/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:e4ed00d9ef85866030865e3fdc29ec298d36eab8@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260722T234500Z
-DTEND:20260723T004500Z
-SUMMARY:Townsperson #3
-LOCATION:Theatre Aquarius Studio\, 190 King William St\, Hamilton\, ON
-DESCRIPTION:Company: Etemadi Entertainment (Toronto\, ON)\nContent warnings
- : Coarse Language\nGenre: Theatre—Comedy\nHave you ever watched a musica
- l and thought - what’s going on with those townspeople? Probably not. Bu
- t we’re here to show you! Townsperson #3 follows the chaotic\, dramatic 
- and absurd lives of two townspeople as their kingdom slowly freezes over. 
- Inspired by the meticulously detailed and rarely seen backstories that ens
- emble members create\, this is the unhinged comedic ode to musical theatre
-  you didn’t know you needed. Please note: this is a play about a musical
- . There is no music. Because it’s a play.\nGeneral Admission: $14\nMore 
- info: https://hftco.ca/events/townsperson-3/
-URL:https://hftco.ca/events/townsperson-3/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:321730cfa4e88d4b45c1c63d77b421a806c547ec@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260723T000000Z
-DTEND:20260723T005500Z
-SUMMARY:How to Love a Fascist
-LOCATION:Mills Hardware\, 95 King St E\, Hamilton\, ON
-DESCRIPTION:Company: Lucky Penny Productions (Toronto\, ON)\nGenre: Theatre
- —Comedy\, Storytelling/Solo Show\nAward-winning standup comedian Cassie 
- Cao (CBC\, Crave\, JFL) returns to Hamilton with a brand-new solo show. Th
- e only show about love and politics that can get your mom and white boyfri
- end to finally agree!\nGeneral Admission: $14\nMore info: https://hftco.ca
- /events/how-to-love-a-fascist/
-URL:https://hftco.ca/events/how-to-love-a-fascist/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:437ce702b002f8b17be309b03820e2e698217c88@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260723T003000Z
-DTEND:20260723T013000Z
-SUMMARY:Karl the Cat and the Junkyard Pack
-LOCATION:The Staircase | Bright Room\, 27 Dundurn St N\, Hamilton\, ON
-DESCRIPTION:Company: Playdough Productions (Toronto/Ottawa\, ON)\nContent w
- arnings: Audience Participation\, Coarse Language\, Mentions of weed\nGenr
- e: Theatre—Comedy\, Musical/Concert/Opera\, Puppetry\nKarl is an adventu
- rous cat\, exploring the garbage peaks and demolished cars of their junkya
- rd home\, but they struggle with figuring out their purpose. Introducing t
- he audience\, the junkyard tourists\, to their many puppet friends\, Karl 
- will begin to figure out who they are. They'll find adventure with those w
- ho matter to them most in a spectacle of live music and 5 originally desig
- ned hand-puppets.\nGeneral Admission: $14\nMore info: https://hftco.ca/eve
- nts/karl-the-cat-and-the-junkyard-pack/
-URL:https://hftco.ca/events/karl-the-cat-and-the-junkyard-pack/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:a83cc636df6811f0d88600c77564008325babdcc@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260723T010000Z
-DTEND:20260723T020000Z
-SUMMARY:TAMP
-LOCATION:The Staircase | Elaine May\, 27 Dundurn St N\, Hamilton\, ON
-DESCRIPTION:Company: Claud Spadafora (Hamilton\, ON)\nContent warnings: Coa
- rse Language\nGenre: Theatre—Comedy\, Storytelling/Solo Show\nA young ta
- mpon explores life outside the box.\nGeneral Admission: $14\nMore info: ht
- tps://hftco.ca/events/tamp/
-URL:https://hftco.ca/events/tamp/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:8421cdabd8a426ac804cbb6834f2a114516bcf25@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260723T010000Z
-DTEND:20260723T030000Z
-SUMMARY:Films On The Fringe: Shorts Showcase presented by DTBIA (RESCHEDULE
- D)
-LOCATION:Fringe Boulevard\, King William St (between James St N and Hughson
-  St N)\, Hamilton\, ON
-DESCRIPTION:Company: HFTco (Hamilton)\nGenre: Free Outdoor Events\nJoin us 
- for the Films on the Fringe: Shorts Showcase\, presented by the Downtown B
- IA and hosted by Jennifer Walton! The shortlist of films that have been se
- lected by our jury panel of Hamiltonian film professionals will be reveale
- d live\, with the winning film being shown in full.\nGeneral Admission: FR
- EE\nMore info: https://hftco.ca/events/films-on-the-fringe-shorts-showcase
- -presented-by-dtbia/
-URL:https://hftco.ca/events/films-on-the-fringe-shorts-showcase-presented-b
- y-dtbia/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:34d64465808204d8459bec0a71f3b96988113909@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260723T011500Z
-DTEND:20260723T021500Z
-SUMMARY:Waiting Room
-LOCATION:Theatre Aquarius Studio\, 190 King William St\, Hamilton\, ON
-DESCRIPTION:Company: Mugwort and Fennel Theatre (Hamilton\, ON)\nSpecial: M
- ask-Mandatory Performance\nContent warnings: Coarse Language\, Themes of D
- eath and Religion\, Mentions of Suicide\, Mental Illness\, Abuse\, and Sub
- stance Abuse\nGenre: Theatre—Drama\nHell hath no fury like a hospital in
-  Hamilton...\nGeneral Admission: $14\nMore info: https://hftco.ca/events/w
- aiting-room/
-URL:https://hftco.ca/events/waiting-room/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:0e84a9992b8048e8cd556c38ed855e6f60f19154@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260723T011500Z
-DTEND:20260723T021500Z
-SUMMARY:The Yodeling Ranger
-LOCATION:The Staircase | Studio Theatre\, 27 Dundurn St N\, Hamilton\, ON
-DESCRIPTION:Company: Hamilton 7 (Hamilton\, ON)\nGenre: Theatre—Comedy\, 
- Musical/Concert/Opera\, Storytelling/Solo Show\nWho is the Yodeling Ranger
- ? An Imposter? A Hero? A Fool? Proof that even the most frivolous act of m
- usic can be life-saving? Veteran performer Tor Lukasik-Foss debuts his lat
- est work for the Hamilton Fringe\, an energetic fusion of music and storyt
- elling\, loaded with the same ‘spellbinding charisma and passion’ as h
- is 2024/5 Fringe hit NEW WAVE YOUR BEHAVIOUR.\nGeneral Admission: $14\nMor
- e info: https://hftco.ca/events/the-yodeling-ranger/
-URL:https://hftco.ca/events/the-yodeling-ranger/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:aa11c09aeb4f2b24c5e22029900b07938e207f30@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260723T011500Z
-DTEND:20260723T020000Z
-SUMMARY:Spooning the Great Bear By the Light of the Moon
-LOCATION:The Players’ Guild of Hamilton\, 80 Queen St S\, Hamilton\, ON
-DESCRIPTION:Company: Xenoproductions (Hamilton\, ON)\nContent warnings: Coa
- rse Language\nGenre: Theatre—Drama\nWhen Syl’s marriage goes the way o
- f the dodo\, best friend Kirsten suggests a road trip\, just like in their
-  old college days. But they’re not the same women they were back then\, 
- and the addition of a third wheel in the car threatens to upend the friend
- ship\, and maybe a little more.\nGeneral Admission: $14\nMore info: https:
- //hftco.ca/events/spooning-the-great-bear-by-the-light-of-the-moon/
-URL:https://hftco.ca/events/spooning-the-great-bear-by-the-light-of-the-moo
- n/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:c089a808a626f7b9fb08d62fd0c650ab64a0e657@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260723T013000Z
-DTEND:20260723T023000Z
-SUMMARY:No Die! – Or: How I Left Amsterdam and Almost Died in Africa
-LOCATION:Mills Hardware\, 95 King St E\, Hamilton\, ON
-DESCRIPTION:Company: Fedor Comedy (Amsterdam\, Netherlands)\nContent warnin
- gs: Coarse Language\nGenre: Theatre—Comedy\, Storytelling/Solo Show\nAft
- er performing in 50 countries\, Dutch stand-up comedian Fedor Ikelaar shar
- es the story that nearly ended it. What starts as a naive trip to Sierra L
- eone spirals into motorbike chaos\, a car crash\, and a gunpoint encounter
-  that isn’t even his closest brush with death. Blending sharp stand-up w
- ith vivid storytelling\, No Die! is a darkly funny true story about bad de
- cisions\, blind confidence\, and somehow surviving it all.\nGeneral Admiss
- ion: $14\nMore info: https://hftco.ca/events/no-die-or-how-i-left-amsterda
- m-and-almost-died-in-africa/
-URL:https://hftco.ca/events/no-die-or-how-i-left-amsterdam-and-almost-died-
- in-africa/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:6bbdc0168320d63653dff27ba9eb82c83100fda4@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260723T160000Z
 DTEND:20260723T170000Z
 SUMMARY:Live Music w/ The Tune In Foundation
@@ -459,7 +23,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:4978ed8496e101a337ee6c47d00d7f5b5085c932@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260723T210000Z
 DTEND:20260724T020000Z
 SUMMARY:Foodie Fringe
@@ -476,7 +40,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:7a028a9c861af6da17f63b0bfac5d0d756e1317d@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260723T214500Z
 DTEND:20260723T224500Z
 SUMMARY:Waiting Room
@@ -492,7 +56,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:017342b5f3a7dad006495dae0f55d4b29a9775e4@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260723T220000Z
 DTEND:20260723T230000Z
 SUMMARY:“Kill Me Now” – The Teaching Confessions of an Undercover Cre
@@ -511,7 +75,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:be285ebc4bc5915ad0311601b1b06dc63b9421a0@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260723T220000Z
 DTEND:20260723T230000Z
 SUMMARY:It’s A Live Mixtape
@@ -530,7 +94,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:af64176cc8d6b1cc9fa627425459a07b7df83714@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260723T220000Z
 DTEND:20260723T230000Z
 SUMMARY:A Seance Spectacular with the Mystical Medium Wolf Sisters from the
@@ -553,7 +117,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:e50ff8b46ea0108c344234a3796825134f05886c@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260723T220000Z
 DTEND:20260723T231500Z
 SUMMARY:Fringe On The Streets – Outdoor Walking Tour
@@ -569,7 +133,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:721b10f08de3a27ff2ced3f62b91d0bfbf2c1faa@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260723T220000Z
 DTEND:20260723T221200Z
 SUMMARY:Paola Brown- The Town Crier of Hamilton
@@ -584,7 +148,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:13198df26560084df849c42e35cddcd1dbfccb56@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260723T220000Z
 DTEND:20260723T221200Z
 SUMMARY:Project Fathering: Generations
@@ -599,7 +163,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:5b516fe9898a533b672033410d7347eedc4a6144@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260723T220000Z
 DTEND:20260723T221200Z
 SUMMARY:The Hanging
@@ -614,7 +178,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:988ee16e831f076eb841c4a52499a47e7f41a331@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260723T220000Z
 DTEND:20260723T221200Z
 SUMMARY:Trash Bots
@@ -629,7 +193,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:f34b94f5714880eb9f4641387c0ca02a9410ab7b@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260723T220000Z
 DTEND:20260723T221200Z
 SUMMARY:Where to Lay My Head to Rest
@@ -645,7 +209,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:5fe8085a2fa79426ec93b7e95ddc5e016d21e247@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260723T221500Z
 DTEND:20260723T231500Z
 SUMMARY:Tacos & Extinction
@@ -666,7 +230,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:eb9c1ff37245569d8196512f318f9d3d516f6c49@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260723T221500Z
 DTEND:20260723T223500Z
 SUMMARY:The Seawitch Speaks
@@ -682,7 +246,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:2d5bc0211d5f1802a435e7e22a125a0fa31be17e@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260723T230000Z
 DTEND:20260724T000000Z
 SUMMARY:LOVE & CRAÍC
@@ -700,7 +264,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:2fb73df9a9287ae4f17619496ad327464b5a891f@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260723T230000Z
 DTEND:20260723T232000Z
 SUMMARY:Into the Swing of Things
@@ -721,7 +285,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:68a082ac073a9697d0f6da45b42edcad12762d91@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260723T230500Z
 DTEND:20260724T000500Z
 SUMMARY:Finding Jamie
@@ -736,7 +300,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:e963787c9d77cc1ca462e0dc18ad46cc76918f9f@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260723T231500Z
 DTEND:20260724T001500Z
 SUMMARY:RATS! Another Musical? (A Totally Improvised Musical Comedy)
@@ -756,7 +320,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:4419d4d60692f4d8034b60d8deb3053b4390cbf4@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260723T231500Z
 DTEND:20260724T001500Z
 SUMMARY:Hope & Joy
@@ -772,7 +336,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:83a7fc4df9110f7585ffc2b876940e0d353875b4@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260723T233000Z
 DTEND:20260724T003000Z
 SUMMARY:TILT
@@ -794,7 +358,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:21c7080c1e85f87921be373ef28966f071830a7d@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260723T233000Z
 DTEND:20260724T001500Z
 SUMMARY:The Syllabus
@@ -814,24 +378,8 @@ URL:https://hftco.ca/events/the-syllabus/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:9ca66f06e3859a8b7343d670210e185fdeccfd52@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260723T233000Z
-DTEND:20260724T020000Z
-SUMMARY:Salsa Lessons & Salsa Under the Stars w/ SalsaSoul
-LOCATION:Fringe Boulevard\, King William St (between James St N and Hughson
-  St N)\, Hamilton\, ON
-DESCRIPTION:Company: SalsaSoul (Hamilton)\nGenre: Free Outdoor Events\nOn T
- hursday\, July 23\, come SALSA UNDER THE STARS with SalsaSoul at the Hamil
- ton Fringe Festival!\nGeneral Admission: FREE\nMore info: https://hftco.ca
- /events/salsa-lessons-salsa-under-the-stars-w-salsasoul/
-URL:https://hftco.ca/events/salsa-lessons-salsa-under-the-stars-w-salsasoul
- /
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:364abc1282fc89376fd5f2e60fd84bf9e6095dac@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260723T233000Z
 DTEND:20260724T003000Z
 SUMMARY:Mark I
@@ -846,8 +394,24 @@ URL:https://hftco.ca/events/mark-i/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:9ca66f06e3859a8b7343d670210e185fdeccfd52@hamilton-fringe-calendar
+DTSTAMP:20260723T134633Z
+DTSTART:20260723T233000Z
+DTEND:20260724T020000Z
+SUMMARY:Salsa Lessons & Salsa Under the Stars w/ SalsaSoul
+LOCATION:Fringe Boulevard\, King William St (between James St N and Hughson
+  St N)\, Hamilton\, ON
+DESCRIPTION:Company: SalsaSoul (Hamilton)\nGenre: Free Outdoor Events\nOn T
+ hursday\, July 23\, come SALSA UNDER THE STARS with SalsaSoul at the Hamil
+ ton Fringe Festival!\nGeneral Admission: FREE\nMore info: https://hftco.ca
+ /events/salsa-lessons-salsa-under-the-stars-w-salsasoul/
+URL:https://hftco.ca/events/salsa-lessons-salsa-under-the-stars-w-salsasoul
+ /
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:acc067dbadd57589cf6d0a30221181b73fa0bcbf@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260723T234500Z
 DTEND:20260724T004500Z
 SUMMARY:I Choose You
@@ -862,7 +426,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:177f3ee6386de97383698da47ecc8ccd1f208b50@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260723T234500Z
 DTEND:20260724T003000Z
 SUMMARY:Spooning the Great Bear By the Light of the Moon
@@ -880,7 +444,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:e0ac23a1ae099850bf8e792d0e2210f1c6926690@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260723T234500Z
 DTEND:20260724T000500Z
 SUMMARY:Bilguisa Speaks Up
@@ -895,26 +459,8 @@ URL:https://hftco.ca/events/bilguisa-speaks-up-2/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:6289897b47fa9c3ef18975cd63ad37bcade5e79e@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260724T003000Z
-DTEND:20260724T013000Z
-SUMMARY:The Yodeling Ranger
-LOCATION:The Staircase | Studio Theatre\, 27 Dundurn St N\, Hamilton\, ON
-DESCRIPTION:Company: Hamilton 7 (Hamilton\, ON)\nGenre: Theatre—Comedy\, 
- Musical/Concert/Opera\, Storytelling/Solo Show\nWho is the Yodeling Ranger
- ? An Imposter? A Hero? A Fool? Proof that even the most frivolous act of m
- usic can be life-saving? Veteran performer Tor Lukasik-Foss debuts his lat
- est work for the Hamilton Fringe\, an energetic fusion of music and storyt
- elling\, loaded with the same ‘spellbinding charisma and passion’ as h
- is 2024/5 Fringe hit NEW WAVE YOUR BEHAVIOUR.\nGeneral Admission: $14\nMor
- e info: https://hftco.ca/events/the-yodeling-ranger/
-URL:https://hftco.ca/events/the-yodeling-ranger/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:b698f470cd4b9faf017904111bc61e0bb5a1fd70@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T003000Z
 DTEND:20260724T005000Z
 SUMMARY:Medically Strange
@@ -934,8 +480,26 @@ URL:https://hftco.ca/events/medically-strange/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:6289897b47fa9c3ef18975cd63ad37bcade5e79e@hamilton-fringe-calendar
+DTSTAMP:20260723T134633Z
+DTSTART:20260724T003000Z
+DTEND:20260724T013000Z
+SUMMARY:The Yodeling Ranger
+LOCATION:The Staircase | Studio Theatre\, 27 Dundurn St N\, Hamilton\, ON
+DESCRIPTION:Company: Hamilton 7 (Hamilton\, ON)\nGenre: Theatre—Comedy\, 
+ Musical/Concert/Opera\, Storytelling/Solo Show\nWho is the Yodeling Ranger
+ ? An Imposter? A Hero? A Fool? Proof that even the most frivolous act of m
+ usic can be life-saving? Veteran performer Tor Lukasik-Foss debuts his lat
+ est work for the Hamilton Fringe\, an energetic fusion of music and storyt
+ elling\, loaded with the same ‘spellbinding charisma and passion’ as h
+ is 2024/5 Fringe hit NEW WAVE YOUR BEHAVIOUR.\nGeneral Admission: $14\nMor
+ e info: https://hftco.ca/events/the-yodeling-ranger/
+URL:https://hftco.ca/events/the-yodeling-ranger/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:3a599bfd6ee5264dbe9aabd8613b91a7e4d4c0ba@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T003500Z
 DTEND:20260724T013500Z
 SUMMARY:1 Million Served- Years Well Waitressed
@@ -953,7 +517,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:378126bcea861420885844c10990e63e7d847c62@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T004500Z
 DTEND:20260724T013500Z
 SUMMARY:There is No Anger Like That of a Woman
@@ -972,7 +536,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:49c3f63b50d6e5bae5c4e9d503502e6590186700@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T004500Z
 DTEND:20260724T014500Z
 SUMMARY:Karl the Cat and the Junkyard Pack
@@ -992,7 +556,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:1309f1d60fbe07b5847935b8d8a7f619cb040427@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T010000Z
 DTEND:20260724T020000Z
 SUMMARY:First Bite to Last Laugh
@@ -1011,7 +575,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:ad225aec984b5db6fbb5ce8d66fdeff8a9e3251a@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T010000Z
 DTEND:20260724T020000Z
 SUMMARY:Raging Gracefully
@@ -1026,7 +590,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:4c8b2bd65cd20aa151f81dffefb5868fdce870f2@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T010000Z
 DTEND:20260724T020000Z
 SUMMARY:Mark II
@@ -1040,7 +604,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:952a74e9c1af074340ba4be35cfd2e0cba101dba@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T011500Z
 DTEND:20260724T021500Z
 SUMMARY:For What We Labour
@@ -1060,7 +624,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:66c93635e45c46c9fb1546fc3f2143ce0c3716f6@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T011500Z
 DTEND:20260724T021500Z
 SUMMARY:Springtime
@@ -1078,7 +642,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:a16004793e20985096d8c314d4351aeaad41ef62@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T011500Z
 DTEND:20260724T013500Z
 SUMMARY:Please Leave When It’s Too Much
@@ -1093,7 +657,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:5bdd9f37901c82e2dd7acb0de981bdfe1595d222@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T020000Z
 DTEND:20260724T030500Z
 SUMMARY:Felt Cute\, Might Overshare Later
@@ -1113,7 +677,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:eeaafce810080a628407e92c2eb2b4dce3e84f49@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T020000Z
 DTEND:20260724T060000Z
 SUMMARY:Salsa After-Party at The Mule
@@ -1129,7 +693,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:da860a488f3ba44d7433c2414537a6b986b48371@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T021500Z
 DTEND:20260724T030500Z
 SUMMARY:Church Boyfriends & Other Impure Thoughts
@@ -1149,7 +713,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:c6ce4b34ece6058e0e7575e265713651d1eecf88@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T160000Z
 DTEND:20260724T170000Z
 SUMMARY:Live Music w/ Paletta Mansion
@@ -1166,7 +730,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:8813d69cde2532446ef7f2d67e3354e8e0549305@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T170000Z
 DTEND:20260724T210000Z
 SUMMARY:Common Threads—Community Cross Stitch with Open Heart
@@ -1188,24 +752,8 @@ URL:https://hftco.ca/events/common-threads-community-cross-stitch-with-open
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:67e8d8c0f1773fc9e5476eff83cc914c2f653365@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260724T210000Z
-DTEND:20260724T230000Z
-SUMMARY:Live Music w/ Louise Concepcion & Vienna Johnson
-LOCATION:Fringe Boulevard\, King William St (between James St N and Hughson
-  St N)\, Hamilton\, ON
-DESCRIPTION:Company: HFTco (Hamilton)\nGenre: Free Outdoor Events\nFeaturin
- g local musicians Louise Concepcion and Vienna Johnson\, join us as the st
- reets are filled with sunshine and live music!\nGeneral Admission: FREE\nM
- ore info: https://hftco.ca/events/live-music-w-louise-concepcion-vienna-jo
- hnson/
-URL:https://hftco.ca/events/live-music-w-louise-concepcion-vienna-johnson/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:b3e75e3acd10841fe293294835142b879669f8fd@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T210000Z
 DTEND:20260725T020000Z
 SUMMARY:Foodie Fringe
@@ -1222,7 +770,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:d2d97e8943df12de3e7fe41e186926bb1899d150@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T210000Z
 DTEND:20260724T223000Z
 SUMMARY:Awake and Dreaming
@@ -1240,8 +788,24 @@ URL:https://hftco.ca/events/awake-and-dreaming/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:67e8d8c0f1773fc9e5476eff83cc914c2f653365@hamilton-fringe-calendar
+DTSTAMP:20260723T134633Z
+DTSTART:20260724T210000Z
+DTEND:20260724T230000Z
+SUMMARY:Live Music w/ Louise Concepcion & Vienna Johnson
+LOCATION:Fringe Boulevard\, King William St (between James St N and Hughson
+  St N)\, Hamilton\, ON
+DESCRIPTION:Company: HFTco (Hamilton)\nGenre: Free Outdoor Events\nFeaturin
+ g local musicians Louise Concepcion and Vienna Johnson\, join us as the st
+ reets are filled with sunshine and live music!\nGeneral Admission: FREE\nM
+ ore info: https://hftco.ca/events/live-music-w-louise-concepcion-vienna-jo
+ hnson/
+URL:https://hftco.ca/events/live-music-w-louise-concepcion-vienna-johnson/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:7773dfa7e2fc9d621a855af1420f44908ad3973e@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T213000Z
 DTEND:20260724T222500Z
 SUMMARY:How to Love a Fascist
@@ -1257,7 +821,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:b85df8c6aa9566f53bc5f87c9b27c17c1864d6ea@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T214500Z
 DTEND:20260724T223500Z
 SUMMARY:Church Boyfriends & Other Impure Thoughts
@@ -1277,7 +841,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:c561a525542be2c06cdce045762127afca02ee25@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T214500Z
 DTEND:20260724T224500Z
 SUMMARY:Intro to Adult Acting
@@ -1295,8 +859,24 @@ URL:https://hftco.ca/events/intro-to-adult-acting/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:978fa5de194489f7e9a7bd5164f407daf18bad7e@hamilton-fringe-calendar
+DTSTAMP:20260723T134633Z
+DTSTART:20260724T220000Z
+DTEND:20260724T230000Z
+SUMMARY:Mark I
+LOCATION:The Gasworks\, 141 Park St N\, Hamilton\, ON
+DESCRIPTION:Company: Thomas Bates Productions (Oshawa)\nGenre: Storytelling
+ /Solo Show\, Family Programming\nIf you missed Part One last year or would
+  like to see it again\, here is your chance! The Gospel of Mark is known t
+ o be the oldest written biblical gospel. This amazing story is told with m
+ odern language\, but in its original form. Come and see and hear.\nGeneral
+  Admission: $14\nMore info: https://hftco.ca/events/mark-i/
+URL:https://hftco.ca/events/mark-i/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:2831b1ce286f887109c9ad03f9738cdb23c32aad@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T220000Z
 DTEND:20260724T231500Z
 SUMMARY:Fringe On The Streets – Outdoor Walking Tour
@@ -1312,7 +892,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:6004c2efa337520f6f79401298475dd6c2918aad@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T220000Z
 DTEND:20260724T221200Z
 SUMMARY:Paola Brown- The Town Crier of Hamilton
@@ -1327,7 +907,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:ee7abc642cea46e7039ccc87ab9ea4e2dbc34a63@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T220000Z
 DTEND:20260724T221200Z
 SUMMARY:Project Fathering: Generations
@@ -1342,7 +922,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:4cfc977f3eefa13bfe5259d1dd8b3c9b9f89cf61@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T220000Z
 DTEND:20260724T221200Z
 SUMMARY:The Hanging
@@ -1357,7 +937,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:312a35811ee50565e6cbc0b2dfe97ead30440a96@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T220000Z
 DTEND:20260724T221200Z
 SUMMARY:Trash Bots
@@ -1372,7 +952,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:9ca115457504549337d33932154d3b234d46dfe1@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T220000Z
 DTEND:20260724T221200Z
 SUMMARY:Where to Lay My Head to Rest
@@ -1387,24 +967,8 @@ URL:https://hftco.ca/events/where-to-lay-my-head-to-rest/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:978fa5de194489f7e9a7bd5164f407daf18bad7e@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260724T220000Z
-DTEND:20260724T230000Z
-SUMMARY:Mark I
-LOCATION:The Gasworks\, 141 Park St N\, Hamilton\, ON
-DESCRIPTION:Company: Thomas Bates Productions (Oshawa)\nGenre: Storytelling
- /Solo Show\, Family Programming\nIf you missed Part One last year or would
-  like to see it again\, here is your chance! The Gospel of Mark is known t
- o be the oldest written biblical gospel. This amazing story is told with m
- odern language\, but in its original form. Come and see and hear.\nGeneral
-  Admission: $14\nMore info: https://hftco.ca/events/mark-i/
-URL:https://hftco.ca/events/mark-i/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:f80a91576eb37ee0541167216e5b5415af522fff@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T221500Z
 DTEND:20260724T231500Z
 SUMMARY:I Choose You
@@ -1419,7 +983,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:b730692b443711ec10bca765242ac8f041722b24@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T221500Z
 DTEND:20260724T223500Z
 SUMMARY:Into the Swing of Things
@@ -1440,7 +1004,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:228dfa652ec08a71de66a22473abe3048136a4dc@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T223000Z
 DTEND:20260724T233000Z
 SUMMARY:Schedule Your Improv! – Authenticity\, The Self\, And WTF Are You
@@ -1463,7 +1027,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:dcf3fe784205fecc6b39db5b82784e6c25c45cda@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T230000Z
 DTEND:20260725T000000Z
 SUMMARY:First Bite to Last Laugh
@@ -1481,26 +1045,8 @@ URL:https://hftco.ca/events/first-bite-to-last-laugh/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:8a67bbc42d3108d93b6dbadb047b32f9c2e9de39@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260724T230000Z
-DTEND:20260725T000000Z
-SUMMARY:The Yodeling Ranger
-LOCATION:The Staircase | Studio Theatre\, 27 Dundurn St N\, Hamilton\, ON
-DESCRIPTION:Company: Hamilton 7 (Hamilton\, ON)\nGenre: Theatre—Comedy\, 
- Musical/Concert/Opera\, Storytelling/Solo Show\nWho is the Yodeling Ranger
- ? An Imposter? A Hero? A Fool? Proof that even the most frivolous act of m
- usic can be life-saving? Veteran performer Tor Lukasik-Foss debuts his lat
- est work for the Hamilton Fringe\, an energetic fusion of music and storyt
- elling\, loaded with the same ‘spellbinding charisma and passion’ as h
- is 2024/5 Fringe hit NEW WAVE YOUR BEHAVIOUR.\nGeneral Admission: $14\nMor
- e info: https://hftco.ca/events/the-yodeling-ranger/
-URL:https://hftco.ca/events/the-yodeling-ranger/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:3aab1a64ec66415aeac308efab5eaa4eaaf75556@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T230000Z
 DTEND:20260725T000000Z
 SUMMARY:The Outlaw and the Son
@@ -1521,7 +1067,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:bc48ddbeb3a067ba6bdf2deef7412bd08d183132@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T230000Z
 DTEND:20260724T232000Z
 SUMMARY:Bilguisa Speaks Up
@@ -1536,8 +1082,26 @@ URL:https://hftco.ca/events/bilguisa-speaks-up-2/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:8a67bbc42d3108d93b6dbadb047b32f9c2e9de39@hamilton-fringe-calendar
+DTSTAMP:20260723T134633Z
+DTSTART:20260724T230000Z
+DTEND:20260725T000000Z
+SUMMARY:The Yodeling Ranger
+LOCATION:The Staircase | Studio Theatre\, 27 Dundurn St N\, Hamilton\, ON
+DESCRIPTION:Company: Hamilton 7 (Hamilton\, ON)\nGenre: Theatre—Comedy\, 
+ Musical/Concert/Opera\, Storytelling/Solo Show\nWho is the Yodeling Ranger
+ ? An Imposter? A Hero? A Fool? Proof that even the most frivolous act of m
+ usic can be life-saving? Veteran performer Tor Lukasik-Foss debuts his lat
+ est work for the Hamilton Fringe\, an energetic fusion of music and storyt
+ elling\, loaded with the same ‘spellbinding charisma and passion’ as h
+ is 2024/5 Fringe hit NEW WAVE YOUR BEHAVIOUR.\nGeneral Admission: $14\nMor
+ e info: https://hftco.ca/events/the-yodeling-ranger/
+URL:https://hftco.ca/events/the-yodeling-ranger/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:d5bff2a058874fb4c0a0a22c4d07b08bffc5fda9@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T231500Z
 DTEND:20260725T001500Z
 SUMMARY:DND Live: Camp DieNoMore
@@ -1553,7 +1117,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:8101c7ed9716f827021f71318a5663e6ce1aa995@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T231500Z
 DTEND:20260725T001500Z
 SUMMARY:Notes From Underground
@@ -1572,7 +1136,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:8108a6c350d19d8746cbd8ef920d339d495cfda1@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T231500Z
 DTEND:20260725T001500Z
 SUMMARY:Rebel Spirits
@@ -1586,23 +1150,8 @@ URL:https://hftco.ca/events/rebel-spirits/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:2d6ccb35d0e3de53db5eb10acf86024c71128b04@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260724T233000Z
-DTEND:20260725T003000Z
-SUMMARY:Finding Jamie
-LOCATION:The Staircase | Elaine May\, 27 Dundurn St N\, Hamilton\, ON
-DESCRIPTION:Company: Zac Williams (Toronto\, ON)\nGenre: Theatre—Comedy\n
- Part romantic comedy. Part coming of age tale. Part mystery. From the crea
- tor of the internationally acclaimed fringe play\, 'Jack Goes to Therapy\,
- ' comes a new story about a lost teacher and a missing student.\nGeneral A
- dmission: $14\nMore info: https://hftco.ca/events/finding-jamie/
-URL:https://hftco.ca/events/finding-jamie/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:a6ff36634c499a03fca0f301e9cea5ba8885db3c@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T233000Z
 DTEND:20260725T023000Z
 SUMMARY:Live Band Karaoke w/ The Approximators presented by Findlay Law
@@ -1619,8 +1168,23 @@ URL:https://hftco.ca/events/live-band-karaoke-w-the-approximators-presented
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:2d6ccb35d0e3de53db5eb10acf86024c71128b04@hamilton-fringe-calendar
+DTSTAMP:20260723T134633Z
+DTSTART:20260724T233000Z
+DTEND:20260725T003000Z
+SUMMARY:Finding Jamie
+LOCATION:The Staircase | Elaine May\, 27 Dundurn St N\, Hamilton\, ON
+DESCRIPTION:Company: Zac Williams (Toronto\, ON)\nGenre: Theatre—Comedy\n
+ Part romantic comedy. Part coming of age tale. Part mystery. From the crea
+ tor of the internationally acclaimed fringe play\, 'Jack Goes to Therapy\,
+ ' comes a new story about a lost teacher and a missing student.\nGeneral A
+ dmission: $14\nMore info: https://hftco.ca/events/finding-jamie/
+URL:https://hftco.ca/events/finding-jamie/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:9d6c09043b7aa07e07eca4c61f978da89939d4c7@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T233000Z
 DTEND:20260725T003000Z
 SUMMARY:Mark II
@@ -1634,7 +1198,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:8b317c6ec636ea61727cd773e6990c48049b6f78@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T234500Z
 DTEND:20260725T004500Z
 SUMMARY:For What We Labour
@@ -1654,7 +1218,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:ac53e7ebc76758e75045456a224d4e9b1a086fc7@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260724T234500Z
 DTEND:20260725T000500Z
 SUMMARY:Medically Strange
@@ -1675,7 +1239,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:950bb7bcfd2fb791074c7ef032b8a967773dcffd@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T000000Z
 DTEND:20260725T010000Z
 SUMMARY:The Last Hornblower
@@ -1693,7 +1257,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:255d45b5f03e783a4d4ad1f64a89e403dc3ec067@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T003000Z
 DTEND:20260725T013500Z
 SUMMARY:Felt Cute\, Might Overshare Later
@@ -1713,7 +1277,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:e9faea6637f1971551b5aba0c295689c38928c1d@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T003000Z
 DTEND:20260725T013000Z
 SUMMARY:A Seance Spectacular with the Mystical Medium Wolf Sisters from the
@@ -1736,7 +1300,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:4925c2cf64a9a8179e8fd4fd132d5289b955d05c@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T003000Z
 DTEND:20260725T013000Z
 SUMMARY:Wheel and Turn
@@ -1759,7 +1323,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:32dc48f377b26e02e77a67899a34cb9602629375@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T003000Z
 DTEND:20260725T005000Z
 SUMMARY:Please Leave When It’s Too Much
@@ -1774,7 +1338,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:e8181b06840f67055be5bbf00ddd1211cd4ecf00@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T004500Z
 DTEND:20260725T014500Z
 SUMMARY:The Mother
@@ -1793,7 +1357,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:15d992477ed69d3dd23c29b5a0a39ae3e2d3cf88@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T004500Z
 DTEND:20260725T014500Z
 SUMMARY:Icarus is Falling
@@ -1812,7 +1376,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:75f40ee7da607bf12e705de6a1ec2ede1cd28684@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T010000Z
 DTEND:20260725T020000Z
 SUMMARY:“Kill Me Now” – The Teaching Confessions of an Undercover Cre
@@ -1831,7 +1395,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:81f371de512bbb8de878cdd9576f3be548cacb98@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T010000Z
 DTEND:20260725T020000Z
 SUMMARY:TAMP
@@ -1845,7 +1409,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:7db2dfaed1d253df9acf6e6fb104909098eaf527@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T011500Z
 DTEND:20260725T021500Z
 SUMMARY:Tacos & Extinction
@@ -1866,7 +1430,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:a097f35bcf6359ea0205f7b86c5745cfad41d4a2@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T011500Z
 DTEND:20260725T013500Z
 SUMMARY:The Seawitch Speaks
@@ -1882,7 +1446,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:644425a97dccfc2611f74b42d26bc00cd9a27ba3@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T020000Z
 DTEND:20260725T030000Z
 SUMMARY:LOVE & CRAÍC
@@ -1900,7 +1464,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:bbd7fecfeff3ad0c42f45eb97dba42863a0cb221@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T020000Z
 DTEND:20260725T030000Z
 SUMMARY:TILT
@@ -1922,7 +1486,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:18fc8c35099b476c42cf8b4f10e8529878885905@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T020000Z
 DTEND:20260725T025500Z
 SUMMARY:Doug Ford\, We Won’t Touch the Greenbelt
@@ -1937,7 +1501,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:46725d93304dcd823e74b22a37a750a64a66ee53@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T021500Z
 DTEND:20260725T031500Z
 SUMMARY:RATS! Another Musical? (A Totally Improvised Musical Comedy)
@@ -1957,7 +1521,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:02076f13d370ebb89be9c1e5c84a5f0f35469456@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T021500Z
 DTEND:20260725T031500Z
 SUMMARY:The Giant Space Monster That Ate Hamilton in 3-D
@@ -1977,7 +1541,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:7059238d012652be959a3f8d473034ef879a7fb3@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T021500Z
 DTEND:20260725T031500Z
 SUMMARY:Hope & Joy
@@ -1992,8 +1556,27 @@ URL:https://hftco.ca/events/hope-joy/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:882cb6399af4cd619d05fb0b9a3ec93d4b085098@hamilton-fringe-calendar
+DTSTAMP:20260723T134633Z
+DTSTART:20260725T150000Z
+DTEND:20260725T163000Z
+SUMMARY:Awake and Dreaming
+LOCATION:The Westdale\, 1014 King St W\, Hamilton\, ON
+DESCRIPTION:Company: SJMD (Hamilton\, ON)\nContent warnings: Depictions of 
+ family conflict\nGenre: Musical/Concert/Opera\, Family Programming\nBased 
+ on the award-winning novel by Kit Pearson\, Awake and Dreaming follows The
+ o\, a child living in poverty with her young\, irresponsible mother Rae in
+  Vancouver. When Theo meets the seemingly perfect Kaldor family on the fer
+ ry and desperately wishes she could be part of them. The magic that follow
+ s teaches her about family\, stories\, and the beautiful imperfections of 
+ life.\nGeneral Admission: $14\nMore info: https://hftco.ca/events/awake-an
+ d-dreaming/
+URL:https://hftco.ca/events/awake-and-dreaming/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:adecff70f0f7882359d251b1075ad3604ccc55db@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T150000Z
 DTEND:20260725T154500Z
 SUMMARY:Interactive Hand Drum Circle W/ Auntie Social Singers
@@ -2013,27 +1596,8 @@ URL:https://hftco.ca/events/interactive-hand-drum-circle-w-auntie-social-si
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:882cb6399af4cd619d05fb0b9a3ec93d4b085098@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260725T150000Z
-DTEND:20260725T163000Z
-SUMMARY:Awake and Dreaming
-LOCATION:The Westdale\, 1014 King St W\, Hamilton\, ON
-DESCRIPTION:Company: SJMD (Hamilton\, ON)\nContent warnings: Depictions of 
- family conflict\nGenre: Musical/Concert/Opera\, Family Programming\nBased 
- on the award-winning novel by Kit Pearson\, Awake and Dreaming follows The
- o\, a child living in poverty with her young\, irresponsible mother Rae in
-  Vancouver. When Theo meets the seemingly perfect Kaldor family on the fer
- ry and desperately wishes she could be part of them. The magic that follow
- s teaches her about family\, stories\, and the beautiful imperfections of 
- life.\nGeneral Admission: $14\nMore info: https://hftco.ca/events/awake-an
- d-dreaming/
-URL:https://hftco.ca/events/awake-and-dreaming/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:dbbd4ac86160cff51c7961ced062c0921d0ec382@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T160000Z
 DTEND:20260725T170000Z
 SUMMARY:Springtime
@@ -2052,7 +1616,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:9acad97ed88704c26facb40d3f446189a153363e@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T160000Z
 DTEND:20260725T173000Z
 SUMMARY:GO
@@ -2066,7 +1630,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:5ce541b1ff01ec339bf1c833603f02ba3478d633@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T161500Z
 DTEND:20260725T171500Z
 SUMMARY:Townsperson #3
@@ -2086,7 +1650,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:34ef074a9aaabcd861fbba23793cbf3c11250101@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T170000Z
 DTEND:20260725T180000Z
 SUMMARY:Raging Gracefully
@@ -2101,7 +1665,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:aa66c0e12acf69d63644a9a8d7b9ed8245afa571@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T173000Z
 DTEND:20260725T183000Z
 SUMMARY:Intro to Adult Acting
@@ -2120,7 +1684,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:3862f3fc1f593a377cfd67422d10ccb4df4511a3@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T174500Z
 DTEND:20260725T183500Z
 SUMMARY:Church Boyfriends & Other Impure Thoughts
@@ -2140,7 +1704,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:52471ab6e73c50f72ba0b67b45c2cf67df5425bd@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T180000Z
 DTEND:20260725T185500Z
 SUMMARY:How to Love a Fascist
@@ -2156,7 +1720,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:fac202c7113e37f11daa5f652bfb37eb8bac7e70@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T183000Z
 DTEND:20260725T193000Z
 SUMMARY:TILT
@@ -2178,7 +1742,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:d8230084665aef95e9012b7889442bb873c6ebb3@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T190000Z
 DTEND:20260725T200000Z
 SUMMARY:Icarus is Falling
@@ -2197,7 +1761,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:c5cdc49d78fc221d3e22da4f25fc66cd01c835f9@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T191500Z
 DTEND:20260725T201500Z
 SUMMARY:Hope & Joy
@@ -2213,7 +1777,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:642db5418e694fcd9a71405bfd757bd160eea879@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T193000Z
 DTEND:20260725T203000Z
 SUMMARY:First Bite to Last Laugh
@@ -2232,7 +1796,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:e629d78cccb3752d4f565f34f233fa2e08dc8cc7@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T200000Z
 DTEND:20260725T210000Z
 SUMMARY:The Outlaw and the Son
@@ -2253,7 +1817,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:1479623c7c395b11eb39eea5d4e5d5ac54563306@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T200000Z
 DTEND:20260725T211500Z
 SUMMARY:Fringe On The Streets – Outdoor Walking Tour
@@ -2269,7 +1833,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:211cdec9aed2f08d4ed9d24a5aff8dacd44ffcab@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T200000Z
 DTEND:20260725T201200Z
 SUMMARY:Paola Brown- The Town Crier of Hamilton
@@ -2284,7 +1848,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:17e50ee1981cf73f3cf7737bb0c4b65ccb0a8440@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T200000Z
 DTEND:20260725T201200Z
 SUMMARY:Project Fathering: Generations
@@ -2299,7 +1863,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:3b00202e1bafe3e5c8f02bea408ad8255473159b@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T200000Z
 DTEND:20260725T201200Z
 SUMMARY:The Hanging
@@ -2314,7 +1878,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:488ccee3fcde11de77688b2c03a510be9ab4a26e@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T200000Z
 DTEND:20260725T201200Z
 SUMMARY:Trash Bots
@@ -2329,7 +1893,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:4b711e0e01e4dc96f0327a016e2f87223f7d1d91@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T200000Z
 DTEND:20260725T201200Z
 SUMMARY:Where to Lay My Head to Rest
@@ -2345,7 +1909,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:4cf63df711c096b6b10e6b05e4139f4cced12d11@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T210000Z
 DTEND:20260726T000000Z
 SUMMARY:Karaoke for Kids\, Teens\, and In-Betweens
@@ -2361,7 +1925,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:5e01580cfb1f299af8b5936867861f5d3b8ea6d3@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T210000Z
 DTEND:20260726T020000Z
 SUMMARY:Foodie Fringe
@@ -2378,7 +1942,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:ebebafc05291ff2c12b596de90214a3e3897d7e3@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T211500Z
 DTEND:20260725T221500Z
 SUMMARY:Tacos & Extinction
@@ -2399,7 +1963,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:5d8fd0b0dbb33c581449634f217200c46454be8c@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T211500Z
 DTEND:20260725T213500Z
 SUMMARY:Bilguisa Speaks Up
@@ -2414,23 +1978,8 @@ URL:https://hftco.ca/events/bilguisa-speaks-up-2/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:75d9116c135ed5f93caa6384ef03c6a030c0d97c@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260725T213000Z
-DTEND:20260725T222500Z
-SUMMARY:Doug Ford\, We Won’t Touch the Greenbelt
-LOCATION:Mills Hardware\, 95 King St E\, Hamilton\, ON
-DESCRIPTION:Company: Tim Katty Productions (Burlington\, ON)\nContent warni
- ngs: Violence\, Environmental destruction and animal rights issues.\nGenre
- : Theatre—Comedy\nOntario premier Doug Ford turns the Greenbelt into dev
- elopment\, taking away anything that is green.\nGeneral Admission: $14\nMo
- re info: https://hftco.ca/events/doug-ford-we-wont-touch-the-greenbelt/
-URL:https://hftco.ca/events/doug-ford-we-wont-touch-the-greenbelt/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:69d9d04d726e5cb2f69c99400c2b1381b9b7c744@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T213000Z
 DTEND:20260725T223000Z
 SUMMARY:Notes From Underground
@@ -2448,8 +1997,23 @@ URL:https://hftco.ca/events/notes-from-underground/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:75d9116c135ed5f93caa6384ef03c6a030c0d97c@hamilton-fringe-calendar
+DTSTAMP:20260723T134633Z
+DTSTART:20260725T213000Z
+DTEND:20260725T222500Z
+SUMMARY:Doug Ford\, We Won’t Touch the Greenbelt
+LOCATION:Mills Hardware\, 95 King St E\, Hamilton\, ON
+DESCRIPTION:Company: Tim Katty Productions (Burlington\, ON)\nContent warni
+ ngs: Violence\, Environmental destruction and animal rights issues.\nGenre
+ : Theatre—Comedy\nOntario premier Doug Ford turns the Greenbelt into dev
+ elopment\, taking away anything that is green.\nGeneral Admission: $14\nMo
+ re info: https://hftco.ca/events/doug-ford-we-wont-touch-the-greenbelt/
+URL:https://hftco.ca/events/doug-ford-we-wont-touch-the-greenbelt/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:01352fc95e4fb55880d2d372750c3280b9535f41@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T213000Z
 DTEND:20260725T230000Z
 SUMMARY:PickleCasso Portraits with The Pickle Fairy
@@ -2466,7 +2030,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:bc5eb7eafa8bcecee56ae0b956848e4bd7ff148a@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T214500Z
 DTEND:20260725T224500Z
 SUMMARY:The Mother
@@ -2484,26 +2048,8 @@ URL:https://hftco.ca/events/the-mother/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:90361a6c17d12d25faf6b3ee5cfaf9ca5de4d92b@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260725T220000Z
-DTEND:20260725T230000Z
-SUMMARY:The Yodeling Ranger
-LOCATION:The Staircase | Studio Theatre\, 27 Dundurn St N\, Hamilton\, ON
-DESCRIPTION:Company: Hamilton 7 (Hamilton\, ON)\nGenre: Theatre—Comedy\, 
- Musical/Concert/Opera\, Storytelling/Solo Show\nWho is the Yodeling Ranger
- ? An Imposter? A Hero? A Fool? Proof that even the most frivolous act of m
- usic can be life-saving? Veteran performer Tor Lukasik-Foss debuts his lat
- est work for the Hamilton Fringe\, an energetic fusion of music and storyt
- elling\, loaded with the same ‘spellbinding charisma and passion’ as h
- is 2024/5 Fringe hit NEW WAVE YOUR BEHAVIOUR.\nGeneral Admission: $14\nMor
- e info: https://hftco.ca/events/the-yodeling-ranger/
-URL:https://hftco.ca/events/the-yodeling-ranger/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:bc7a679128ca3b73125426bc51b7cf5beb336218@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T220000Z
 DTEND:20260725T222000Z
 SUMMARY:Medically Strange
@@ -2524,7 +2070,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:66c62f21f931963164545434ba162231cc917774@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T220000Z
 DTEND:20260725T230000Z
 SUMMARY:Mark II
@@ -2537,8 +2083,26 @@ URL:https://hftco.ca/events/mark-ii/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:90361a6c17d12d25faf6b3ee5cfaf9ca5de4d92b@hamilton-fringe-calendar
+DTSTAMP:20260723T134633Z
+DTSTART:20260725T220000Z
+DTEND:20260725T230000Z
+SUMMARY:The Yodeling Ranger
+LOCATION:The Staircase | Studio Theatre\, 27 Dundurn St N\, Hamilton\, ON
+DESCRIPTION:Company: Hamilton 7 (Hamilton\, ON)\nGenre: Theatre—Comedy\, 
+ Musical/Concert/Opera\, Storytelling/Solo Show\nWho is the Yodeling Ranger
+ ? An Imposter? A Hero? A Fool? Proof that even the most frivolous act of m
+ usic can be life-saving? Veteran performer Tor Lukasik-Foss debuts his lat
+ est work for the Hamilton Fringe\, an energetic fusion of music and storyt
+ elling\, loaded with the same ‘spellbinding charisma and passion’ as h
+ is 2024/5 Fringe hit NEW WAVE YOUR BEHAVIOUR.\nGeneral Admission: $14\nMor
+ e info: https://hftco.ca/events/the-yodeling-ranger/
+URL:https://hftco.ca/events/the-yodeling-ranger/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:28477a758eddaf1e60ae410b32406617e11ccb53@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T221500Z
 DTEND:20260725T231500Z
 SUMMARY:TAMP
@@ -2552,7 +2116,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:79f263283b8e3b5cb2d5aeffed1e2a7c684912bd@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T223000Z
 DTEND:20260725T233000Z
 SUMMARY:It’s A Live Mixtape
@@ -2571,7 +2135,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:c94e8d28f89e4346a4c4b9da7e42247600ba8e99@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T223000Z
 DTEND:20260725T233000Z
 SUMMARY:Schedule Your Improv! – Authenticity\, The Self\, And WTF Are You
@@ -2594,7 +2158,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:ed69054d199af6394b91c6599f2bd707b164fb9d@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T224500Z
 DTEND:20260725T234500Z
 SUMMARY:RATS! Another Musical? (A Totally Improvised Musical Comedy)
@@ -2614,7 +2178,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:ca4c52ef28a329d0ab867ba9d95248d4c4551e0c@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T224500Z
 DTEND:20260725T230500Z
 SUMMARY:Please Leave When It’s Too Much
@@ -2629,7 +2193,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:b9903633dfb1d124a46970608c272e683ba67cba@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T230000Z
 DTEND:20260726T000000Z
 SUMMARY:No Die! – Or: How I Left Amsterdam and Almost Died in Africa
@@ -2650,7 +2214,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:b5803860a0cb59ad933753f84c2a5469227e8419@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T230000Z
 DTEND:20260726T000000Z
 SUMMARY:The Giant Space Monster That Ate Hamilton in 3-D
@@ -2670,7 +2234,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:63faaa75f5a88c96ce5c3de0331cd91211f5b1e3@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T230000Z
 DTEND:20260726T001500Z
 SUMMARY:Fringe On The Streets – Outdoor Walking Tour
@@ -2686,7 +2250,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:c19f290cbd20c2cec826b82f05de4540e9717b9d@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T230000Z
 DTEND:20260725T231200Z
 SUMMARY:Paola Brown- The Town Crier of Hamilton
@@ -2701,7 +2265,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:884b94a3519d3d27b77f9fb3ee020719d0ce347b@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T230000Z
 DTEND:20260725T231200Z
 SUMMARY:Project Fathering: Generations
@@ -2716,7 +2280,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:f257d2e51f8235436f7658ae6fb6887626b631ae@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T230000Z
 DTEND:20260725T231200Z
 SUMMARY:The Hanging
@@ -2731,7 +2295,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:1a0443d3d464054f1787850d87bc2364eae3c8f8@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T230000Z
 DTEND:20260725T231200Z
 SUMMARY:Trash Bots
@@ -2746,7 +2310,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:2b1fefca3d48058cbdecfce4303ea968563692cd@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T230000Z
 DTEND:20260725T231200Z
 SUMMARY:Where to Lay My Head to Rest
@@ -2762,7 +2326,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:0c92d38a53c964c6742889234a024f2f5198986a@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T231500Z
 DTEND:20260726T001500Z
 SUMMARY:Waiting Room
@@ -2777,8 +2341,25 @@ URL:https://hftco.ca/events/waiting-room/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:822b220af9d86df0831cce390e45e22342be791d@hamilton-fringe-calendar
+DTSTAMP:20260723T134633Z
+DTSTART:20260725T233000Z
+DTEND:20260726T023000Z
+SUMMARY:Bands on the Boulevard w/ Meteor Heist
+LOCATION:Fringe Boulevard\, King William St (between James St N and Hughson
+  St N)\, Hamilton\, ON
+DESCRIPTION:Company: HFTco (Hamilton)\nGenre: Free Outdoor Events\nLet’s 
+ rock Hamilton Fringe! We’re bringing you amazing local bands right on Fr
+ inge Boulevard. Get ready for a night of dancing\, head banging\, and holl
+ ering along to some immaculate summer tunes\, featuring headliners Meteor 
+ Heist with special guests WILDBLOOM!\nGeneral Admission: FREE\nMore info: 
+ https://hftco.ca/events/bands-on-the-boulevard/
+URL:https://hftco.ca/events/bands-on-the-boulevard/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:0a40bd9ba1cada8ca7795fa09577c250175666ea@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T233000Z
 DTEND:20260726T003000Z
 SUMMARY:“Kill Me Now” – The Teaching Confessions of an Undercover Cre
@@ -2797,7 +2378,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:535b4dcc5b4722ffa8f466f0249c82bca801b1b8@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T233000Z
 DTEND:20260726T003000Z
 SUMMARY:LOVE & CRAÍC
@@ -2814,25 +2395,8 @@ URL:https://hftco.ca/events/love-craic/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:822b220af9d86df0831cce390e45e22342be791d@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260725T233000Z
-DTEND:20260726T023000Z
-SUMMARY:Bands on the Boulevard w/ Meteor Heist
-LOCATION:Fringe Boulevard\, King William St (between James St N and Hughson
-  St N)\, Hamilton\, ON
-DESCRIPTION:Company: HFTco (Hamilton)\nGenre: Free Outdoor Events\nLet’s 
- rock Hamilton Fringe! We’re bringing you amazing local bands right on Fr
- inge Boulevard. Get ready for a night of dancing\, head banging\, and holl
- ering along to some immaculate summer tunes\, featuring headliners Meteor 
- Heist with special guests WILDBLOOM!\nGeneral Admission: FREE\nMore info: 
- https://hftco.ca/events/bands-on-the-boulevard/
-URL:https://hftco.ca/events/bands-on-the-boulevard/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:4d2ab850690760bc23fe1cea20664d10a4d7fce7@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T233000Z
 DTEND:20260725T235000Z
 SUMMARY:The Seawitch Speaks
@@ -2848,7 +2412,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:ee93f65697e61007e3ac913c0f219f3f6eeee4c1@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T234500Z
 DTEND:20260726T004500Z
 SUMMARY:Finding Jamie
@@ -2863,7 +2427,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:0cbeade6bd2652dff160de7bc1063f6e676c7860@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260725T234500Z
 DTEND:20260726T004500Z
 SUMMARY:For What We Labour
@@ -2883,7 +2447,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:0d00d67e6b7cc391b3e66b5f028b8e06342769a9@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T000000Z
 DTEND:20260726T010000Z
 SUMMARY:The Last Hornblower
@@ -2901,7 +2465,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:a329430f9ac4a8ad3363e79d28278800aa9337ed@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T001500Z
 DTEND:20260726T011500Z
 SUMMARY:Karl the Cat and the Junkyard Pack
@@ -2921,7 +2485,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:de918b92ccd3b89d3051792c9544657f9a974d85@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T001500Z
 DTEND:20260726T003500Z
 SUMMARY:Into the Swing of Things
@@ -2942,7 +2506,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:0f3aecd2564efd8130019d2171494ba3af0ba697@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T003000Z
 DTEND:20260726T011500Z
 SUMMARY:The Syllabus
@@ -2963,7 +2527,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:1acb043cd9ec4a5309a0797ed9bb56a3af77896e@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T004500Z
 DTEND:20260726T013500Z
 SUMMARY:There is No Anger Like That of a Woman
@@ -2982,7 +2546,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:9454b6feb13d94dbd7944fb93344b361660d6a69@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T010000Z
 DTEND:20260726T020500Z
 SUMMARY:Felt Cute\, Might Overshare Later
@@ -3002,7 +2566,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:8ea22dd10aded867c2989a29c0dde3aa157f2acb@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T011500Z
 DTEND:20260726T021500Z
 SUMMARY:1 Million Served- Years Well Waitressed
@@ -3020,7 +2584,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:54d14107f91f2d2bae5934e4141324b5b4587dee@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T011500Z
 DTEND:20260726T021500Z
 SUMMARY:I Choose You
@@ -3035,7 +2599,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:85712bab54efe416b6911b394659c37494a00fa7@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T013000Z
 DTEND:20260726T023000Z
 SUMMARY:Wheel and Turn
@@ -3058,7 +2622,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:21cb079a28fa7fa14e4a0f5e842cf47f5026df34@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T014500Z
 DTEND:20260726T024500Z
 SUMMARY:DND Live: Camp DieNoMore
@@ -3074,7 +2638,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:65d8e8ec7871c8960c8c128562dbfb1430828ef1@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T020000Z
 DTEND:20260726T030000Z
 SUMMARY:A Seance Spectacular with the Mystical Medium Wolf Sisters from the
@@ -3097,7 +2661,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:eeb17a25e166d0e3fc2f3733fe0b01ea1f0141bb@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T021500Z
 DTEND:20260726T031500Z
 SUMMARY:Rebel Spirits
@@ -3112,7 +2676,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:0a6ac6007d0996022ffffd97db2e24ad2f9910d0@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T023000Z
 DTEND:20260726T031500Z
 SUMMARY:Spooning the Great Bear By the Light of the Moon
@@ -3130,7 +2694,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:1c8e0ca71a59a6f25666271c182c500ebf9cdfb4@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T140000Z
 DTEND:20260726T144500Z
 SUMMARY:Leaving the Lilypad w/ Gary Hillis
@@ -3145,24 +2709,8 @@ URL:https://hftco.ca/events/leaving-the-lilypad-w-gary-hillis/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:afac253b531868085048fdaf44d9ef4c0931f43d@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260726T160000Z
-DTEND:20260726T165500Z
-SUMMARY:How to Love a Fascist
-LOCATION:Mills Hardware\, 95 King St E\, Hamilton\, ON
-DESCRIPTION:Company: Lucky Penny Productions (Toronto\, ON)\nGenre: Theatre
- —Comedy\, Storytelling/Solo Show\nAward-winning standup comedian Cassie 
- Cao (CBC\, Crave\, JFL) returns to Hamilton with a brand-new solo show. Th
- e only show about love and politics that can get your mom and white boyfri
- end to finally agree!\nGeneral Admission: $14\nMore info: https://hftco.ca
- /events/how-to-love-a-fascist/
-URL:https://hftco.ca/events/how-to-love-a-fascist/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:70225e1eabe035014a53446a35d02b5a00e8533c@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T160000Z
 DTEND:20260726T170000Z
 SUMMARY:Live Music w/ Paletta Mansion
@@ -3178,8 +2726,24 @@ URL:https://hftco.ca/events/live-music-paletta-mansion/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:afac253b531868085048fdaf44d9ef4c0931f43d@hamilton-fringe-calendar
+DTSTAMP:20260723T134633Z
+DTSTART:20260726T160000Z
+DTEND:20260726T165500Z
+SUMMARY:How to Love a Fascist
+LOCATION:Mills Hardware\, 95 King St E\, Hamilton\, ON
+DESCRIPTION:Company: Lucky Penny Productions (Toronto\, ON)\nGenre: Theatre
+ —Comedy\, Storytelling/Solo Show\nAward-winning standup comedian Cassie 
+ Cao (CBC\, Crave\, JFL) returns to Hamilton with a brand-new solo show. Th
+ e only show about love and politics that can get your mom and white boyfri
+ end to finally agree!\nGeneral Admission: $14\nMore info: https://hftco.ca
+ /events/how-to-love-a-fascist/
+URL:https://hftco.ca/events/how-to-love-a-fascist/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:6f6e7ebf2517ee5d44dc6766e62754a88d57200f@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T161500Z
 DTEND:20260726T170500Z
 SUMMARY:There is No Anger Like That of a Woman
@@ -3198,7 +2762,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:81650fc8800708486cd95fc49e6bb6ed43ec16ae@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T161500Z
 DTEND:20260726T171500Z
 SUMMARY:Icarus is Falling
@@ -3217,7 +2781,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:89a63b54c6c1b267fa061fb44f2a3deef0bef880@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T170000Z
 DTEND:20260726T180500Z
 SUMMARY:Felt Cute\, Might Overshare Later
@@ -3237,7 +2801,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:fc88450346e0f9e02f2a962a7bf7cc99fb320c5b@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T170000Z
 DTEND:20260726T200000Z
 SUMMARY:Crafts on the Boulevard
@@ -3254,7 +2818,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:3afefe5b538c862bc1443edc1a279e8c8165ea0e@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T173000Z
 DTEND:20260726T183000Z
 SUMMARY:DND Live: Camp DieNoMore
@@ -3270,7 +2834,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:ea900fd23e0ef887b3df98bca0292b2db4c11431@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T173000Z
 DTEND:20260726T183000Z
 SUMMARY:No Die! – Or: How I Left Amsterdam and Almost Died in Africa
@@ -3291,7 +2855,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:e0db4cd812b984cc0dc642990dcd1fdb348c4bf5@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T173000Z
 DTEND:20260726T183000Z
 SUMMARY:Wheel and Turn
@@ -3314,7 +2878,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:1e45ab040738606eebe815cdb5e6b5bcfb0b5eb1@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T174500Z
 DTEND:20260726T184500Z
 SUMMARY:The Mother
@@ -3333,7 +2897,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:606a26e0bcc2064ea06d33ed806696e598ca52c7@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T180000Z
 DTEND:20260726T190000Z
 SUMMARY:1 Million Served- Years Well Waitressed
@@ -3351,7 +2915,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:c012385e2f117b03a3ca43739af1d27b4e1e8d48@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T183000Z
 DTEND:20260726T193000Z
 SUMMARY:The Yodeling Ranger
@@ -3368,24 +2932,8 @@ URL:https://hftco.ca/events/the-yodeling-ranger/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:e8af551f5a7bda0f67a78380f5bed178cd233364@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260726T190000Z
-DTEND:20260726T195500Z
-SUMMARY:Doug Ford\, We Won’t Touch the Greenbelt
-LOCATION:Mills Hardware\, 95 King St E\, Hamilton\, ON
-DESCRIPTION:Company: Tim Katty Productions (Burlington\, ON)\nSpecial: Affi
- nity Performance\nContent warnings: Violence\, Environmental destruction a
- nd animal rights issues.\nGenre: Theatre—Comedy\nOntario premier Doug Fo
- rd turns the Greenbelt into development\, taking away anything that is gre
- en.\nGeneral Admission: $14\nMore info: https://hftco.ca/events/doug-ford-
- we-wont-touch-the-greenbelt/
-URL:https://hftco.ca/events/doug-ford-we-wont-touch-the-greenbelt/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:13a86ad3afd8d56f58444870f98aced1d56b8770@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T190000Z
 DTEND:20260726T200000Z
 SUMMARY:Karl the Cat and the Junkyard Pack
@@ -3404,100 +2952,8 @@ URL:https://hftco.ca/events/karl-the-cat-and-the-junkyard-pack/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:0360414088cc55beace6a35ecfda25a29613f89c@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260726T190000Z
-DTEND:20260726T201500Z
-SUMMARY:Fringe On The Streets – Outdoor Walking Tour
-LOCATION:Fringe On The Streets\, Tour departs Hamilton Farmers' Market\, 35
-  York Blvd\, Hamilton\, ON
-DESCRIPTION:Company: HFTco & City of Hamilton (Hamilton\, ON)\nContent warn
- ings: See Show Listings\nGenre: Walking Tour/Promenade\, Free Outdoor Even
- ts\nA FREE outdoor performance tour presented in partnership with the City
-  of Hamilton and Downtown Hamilton BIA.\nGeneral Admission: FREE\nMore inf
- o: https://hftco.ca/events/fringe-on-the-streets-outdoor-walking-tour/
-URL:https://hftco.ca/events/fringe-on-the-streets-outdoor-walking-tour/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:1b01e0b9bd25b7ddf4d1be86abe991c74aaea4a4@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260726T190000Z
-DTEND:20260726T191200Z
-SUMMARY:Paola Brown- The Town Crier of Hamilton
-LOCATION:Fringe On The Streets\, Tour departs Hamilton Farmers' Market\, 35
-  York Blvd\, Hamilton\, ON
-DESCRIPTION:Content warnings: Audience Participation\nGenre: Theatre—Dram
- a\, Walking Tour/Promenade\, Free Outdoor Events\nSTOP #5: Fringe Boulevar
- d (King William St & James St N)\nGeneral Admission: FREE\nMore info: http
- s://hftco.ca/events/paola-brown-the-town-crier-of-hamilton/
-URL:https://hftco.ca/events/paola-brown-the-town-crier-of-hamilton/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:a145fb6bc8a9e249aa3c856ea76e6c41c20ccde2@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260726T190000Z
-DTEND:20260726T191200Z
-SUMMARY:Project Fathering: Generations
-LOCATION:Fringe On The Streets\, Tour departs Hamilton Farmers' Market\, 35
-  York Blvd\, Hamilton\, ON
-DESCRIPTION:Genre: Storytelling/Solo Show\, Walking Tour/Promenade\, Free O
- utdoor Events\nSTOP #1: Hamilton Farmers' Market (35 York Blvd)\nGeneral A
- dmission: FREE\nMore info: https://hftco.ca/events/project-fathering-gener
- ations/
-URL:https://hftco.ca/events/project-fathering-generations/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:ef7b753f6fba6fccfe0c0c174f6eae243754c783@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260726T190000Z
-DTEND:20260726T191200Z
-SUMMARY:The Hanging
-LOCATION:Fringe On The Streets\, Tour departs Hamilton Farmers' Market\, 35
-  York Blvd\, Hamilton\, ON
-DESCRIPTION:Company: Red Beti Theatre (Hamilton\, ON)\nContent warnings: Au
- dience Participation\nGenre: Theatre—Drama\, Walking Tour/Promenade\, Fr
- ee Outdoor Events\nSTOP #3: Parkette @ NE Corner of Wilson St & James St N
- \nGeneral Admission: FREE\nMore info: https://hftco.ca/events/the-hanging/
-URL:https://hftco.ca/events/the-hanging/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:1c7c9d54d9c25ac127c87a4406e9d1c5f2a3e7a0@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260726T190000Z
-DTEND:20260726T191200Z
-SUMMARY:Trash Bots
-LOCATION:Fringe On The Streets\, Tour departs Hamilton Farmers' Market\, 35
-  York Blvd\, Hamilton\, ON
-DESCRIPTION:Content warnings: Audience Participation\nGenre: Puppetry\, Wal
- king Tour/Promenade\, Free Outdoor Events\nSTOP #4: NE Corner of Rebecca S
- t & James St N\nGeneral Admission: FREE\nMore info: https://hftco.ca/event
- s/trash-bots/
-URL:https://hftco.ca/events/trash-bots/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:4fed9017e991eb7e4ad63b3252b66fbf83c0f6ed@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260726T190000Z
-DTEND:20260726T191200Z
-SUMMARY:Where to Lay My Head to Rest
-LOCATION:Fringe On The Streets\, Tour departs Hamilton Farmers' Market\, 35
-  York Blvd\, Hamilton\, ON
-DESCRIPTION:Content warnings: Audience Participation\, Discussion of Death\
- nGenre: Storytelling/Solo Show\, Walking Tour/Promenade\, Free Outdoor Eve
- nts\nSTOP #2: Parkette beside Latin Food & Products (91 James St N)\nGener
- al Admission: FREE\nMore info: https://hftco.ca/events/where-to-lay-my-hea
- d-to-rest/
-URL:https://hftco.ca/events/where-to-lay-my-head-to-rest/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:ed2e243896c4a13403bc60b5a01019fc0d4531e6@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T190000Z
 DTEND:20260726T203000Z
 SUMMARY:Awake and Dreaming
@@ -3515,8 +2971,116 @@ URL:https://hftco.ca/events/awake-and-dreaming/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:e8af551f5a7bda0f67a78380f5bed178cd233364@hamilton-fringe-calendar
+DTSTAMP:20260723T134633Z
+DTSTART:20260726T190000Z
+DTEND:20260726T195500Z
+SUMMARY:Doug Ford\, We Won’t Touch the Greenbelt
+LOCATION:Mills Hardware\, 95 King St E\, Hamilton\, ON
+DESCRIPTION:Company: Tim Katty Productions (Burlington\, ON)\nSpecial: Affi
+ nity Performance\nContent warnings: Violence\, Environmental destruction a
+ nd animal rights issues.\nGenre: Theatre—Comedy\nOntario premier Doug Fo
+ rd turns the Greenbelt into development\, taking away anything that is gre
+ en.\nGeneral Admission: $14\nMore info: https://hftco.ca/events/doug-ford-
+ we-wont-touch-the-greenbelt/
+URL:https://hftco.ca/events/doug-ford-we-wont-touch-the-greenbelt/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:0360414088cc55beace6a35ecfda25a29613f89c@hamilton-fringe-calendar
+DTSTAMP:20260723T134633Z
+DTSTART:20260726T190000Z
+DTEND:20260726T201500Z
+SUMMARY:Fringe On The Streets – Outdoor Walking Tour
+LOCATION:Fringe On The Streets\, Tour departs Hamilton Farmers' Market\, 35
+  York Blvd\, Hamilton\, ON
+DESCRIPTION:Company: HFTco & City of Hamilton (Hamilton\, ON)\nContent warn
+ ings: See Show Listings\nGenre: Walking Tour/Promenade\, Free Outdoor Even
+ ts\nA FREE outdoor performance tour presented in partnership with the City
+  of Hamilton and Downtown Hamilton BIA.\nGeneral Admission: FREE\nMore inf
+ o: https://hftco.ca/events/fringe-on-the-streets-outdoor-walking-tour/
+URL:https://hftco.ca/events/fringe-on-the-streets-outdoor-walking-tour/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:1b01e0b9bd25b7ddf4d1be86abe991c74aaea4a4@hamilton-fringe-calendar
+DTSTAMP:20260723T134633Z
+DTSTART:20260726T190000Z
+DTEND:20260726T191200Z
+SUMMARY:Paola Brown- The Town Crier of Hamilton
+LOCATION:Fringe On The Streets\, Tour departs Hamilton Farmers' Market\, 35
+  York Blvd\, Hamilton\, ON
+DESCRIPTION:Content warnings: Audience Participation\nGenre: Theatre—Dram
+ a\, Walking Tour/Promenade\, Free Outdoor Events\nSTOP #5: Fringe Boulevar
+ d (King William St & James St N)\nGeneral Admission: FREE\nMore info: http
+ s://hftco.ca/events/paola-brown-the-town-crier-of-hamilton/
+URL:https://hftco.ca/events/paola-brown-the-town-crier-of-hamilton/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:a145fb6bc8a9e249aa3c856ea76e6c41c20ccde2@hamilton-fringe-calendar
+DTSTAMP:20260723T134633Z
+DTSTART:20260726T190000Z
+DTEND:20260726T191200Z
+SUMMARY:Project Fathering: Generations
+LOCATION:Fringe On The Streets\, Tour departs Hamilton Farmers' Market\, 35
+  York Blvd\, Hamilton\, ON
+DESCRIPTION:Genre: Storytelling/Solo Show\, Walking Tour/Promenade\, Free O
+ utdoor Events\nSTOP #1: Hamilton Farmers' Market (35 York Blvd)\nGeneral A
+ dmission: FREE\nMore info: https://hftco.ca/events/project-fathering-gener
+ ations/
+URL:https://hftco.ca/events/project-fathering-generations/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ef7b753f6fba6fccfe0c0c174f6eae243754c783@hamilton-fringe-calendar
+DTSTAMP:20260723T134633Z
+DTSTART:20260726T190000Z
+DTEND:20260726T191200Z
+SUMMARY:The Hanging
+LOCATION:Fringe On The Streets\, Tour departs Hamilton Farmers' Market\, 35
+  York Blvd\, Hamilton\, ON
+DESCRIPTION:Company: Red Beti Theatre (Hamilton\, ON)\nContent warnings: Au
+ dience Participation\nGenre: Theatre—Drama\, Walking Tour/Promenade\, Fr
+ ee Outdoor Events\nSTOP #3: Parkette @ NE Corner of Wilson St & James St N
+ \nGeneral Admission: FREE\nMore info: https://hftco.ca/events/the-hanging/
+URL:https://hftco.ca/events/the-hanging/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:1c7c9d54d9c25ac127c87a4406e9d1c5f2a3e7a0@hamilton-fringe-calendar
+DTSTAMP:20260723T134633Z
+DTSTART:20260726T190000Z
+DTEND:20260726T191200Z
+SUMMARY:Trash Bots
+LOCATION:Fringe On The Streets\, Tour departs Hamilton Farmers' Market\, 35
+  York Blvd\, Hamilton\, ON
+DESCRIPTION:Content warnings: Audience Participation\nGenre: Puppetry\, Wal
+ king Tour/Promenade\, Free Outdoor Events\nSTOP #4: NE Corner of Rebecca S
+ t & James St N\nGeneral Admission: FREE\nMore info: https://hftco.ca/event
+ s/trash-bots/
+URL:https://hftco.ca/events/trash-bots/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:4fed9017e991eb7e4ad63b3252b66fbf83c0f6ed@hamilton-fringe-calendar
+DTSTAMP:20260723T134633Z
+DTSTART:20260726T190000Z
+DTEND:20260726T191200Z
+SUMMARY:Where to Lay My Head to Rest
+LOCATION:Fringe On The Streets\, Tour departs Hamilton Farmers' Market\, 35
+  York Blvd\, Hamilton\, ON
+DESCRIPTION:Content warnings: Audience Participation\, Discussion of Death\
+ nGenre: Storytelling/Solo Show\, Walking Tour/Promenade\, Free Outdoor Eve
+ nts\nSTOP #2: Parkette beside Latin Food & Products (91 James St N)\nGener
+ al Admission: FREE\nMore info: https://hftco.ca/events/where-to-lay-my-hea
+ d-to-rest/
+URL:https://hftco.ca/events/where-to-lay-my-head-to-rest/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:2364c8af26da3d00e3f3b6f6dfda3c537415d05a@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T191500Z
 DTEND:20260726T201500Z
 SUMMARY:Waiting Room
@@ -3532,7 +3096,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:139f37e44d7bfc5155d7ab252438b8ab9535aa0a@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T193000Z
 DTEND:20260726T203000Z
 SUMMARY:TAMP
@@ -3546,7 +3110,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:ada797b7346e172887422e12cafeb5e1bcdfeeb8@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T194500Z
 DTEND:20260726T204500Z
 SUMMARY:The Giant Space Monster That Ate Hamilton in 3-D
@@ -3566,7 +3130,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:977e7087faf63da1f09243c2dd1f39f5ccb4e5ef@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T200000Z
 DTEND:20260726T210000Z
 SUMMARY:LOVE & CRAÍC
@@ -3584,7 +3148,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:8d9d7f0300151d06345ae8441d30230d956e454b@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T203000Z
 DTEND:20260726T211500Z
 SUMMARY:The Syllabus
@@ -3605,7 +3169,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:d4329b83ae1fc43fe1685c10613460c1ba2b380a@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T210000Z
 DTEND:20260727T020000Z
 SUMMARY:Foodie Fringe
@@ -3622,7 +3186,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:a3781d98aa920e7733450baf15c5c9d7e0b1d5ba@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T213000Z
 DTEND:20260726T223000Z
 SUMMARY:The Last Hornblower
@@ -3640,7 +3204,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:8faaa0344c1791176081630ff0b76b59ec03fdee@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T214500Z
 DTEND:20260726T224500Z
 SUMMARY:Rebel Spirits
@@ -3655,7 +3219,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:d054c9e3e8f58ee26c47024f3733cd0b7eaeaed0@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T220000Z
 DTEND:20260726T230000Z
 SUMMARY:Raging Gracefully
@@ -3670,7 +3234,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:35621de5fd18ac496ce934fd134d18768a8e49e5@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T221500Z
 DTEND:20260726T231500Z
 SUMMARY:Intro to Adult Acting
@@ -3689,7 +3253,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:4f05f116a78de536cfedd015f3211fa5b84be607@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T230000Z
 DTEND:20260727T000000Z
 SUMMARY:First Bite to Last Laugh
@@ -3708,7 +3272,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:0fa070dc339ea792fef402616112de361e2e2826@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T230000Z
 DTEND:20260727T000000Z
 SUMMARY:Schedule Your Improv! – Authenticity\, The Self\, And WTF Are You
@@ -3731,7 +3295,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:1d4da30c64e7f2cae9b6fa0f9dbc48783b8a300f@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T231500Z
 DTEND:20260727T001500Z
 SUMMARY:Townsperson #3
@@ -3751,7 +3315,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:a83f6d3be74884d40cf18006d81e4938b424d3fb@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T233000Z
 DTEND:20260727T003000Z
 SUMMARY:TILT
@@ -3773,7 +3337,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:a07441f9c411eea375516999a565d4edfe7ca9cb@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T233000Z
 DTEND:20260727T010000Z
 SUMMARY:Closing Night Pre Show w/ DJ Spiritwalker
@@ -3790,7 +3354,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:7e6f3e54cfb873994b6d4a6cfb7157ef64635fd1@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260726T234500Z
 DTEND:20260727T003000Z
 SUMMARY:Spooning the Great Bear By the Light of the Moon
@@ -3808,7 +3372,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:c160c5cbf5804ce197b5bfa5cd288eb63923fe23@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260727T003000Z
 DTEND:20260727T020000Z
 SUMMARY:GO
@@ -3821,8 +3385,24 @@ URL:https://hftco.ca/events/go/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:f77ceb637f6047a2acbad79129552a67f121c8da@hamilton-fringe-calendar
+DTSTAMP:20260723T134633Z
+DTSTART:20260727T010000Z
+DTEND:20260727T030000Z
+SUMMARY:Closing Night Awards Party w/ Karma Kameleon
+LOCATION:Fringe Boulevard\, King William St (between James St N and Hughson
+  St N)\, Hamilton\, ON
+DESCRIPTION:Company: HFTco (Hamilton)\nGenre: Free Outdoor Events\nClosing 
+ Night and Awards lets artists and festival-goers celebrate all the best of
+  this year's Hamilton Fringe on its final night! Hosted by the legendary K
+ arma Kameleon.\nGeneral Admission: FREE\nMore info: https://hftco.ca/event
+ s/closing-night-awards-party-w-karma-kameleon/
+URL:https://hftco.ca/events/closing-night-awards-party-w-karma-kameleon/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:cb361f90b0673f319310ba69ce8b34ba2ae2a9c8@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260727T010000Z
 DTEND:20260727T020000Z
 SUMMARY:It’s A Live Mixtape
@@ -3840,24 +3420,8 @@ URL:https://hftco.ca/events/its-a-live-mixtape/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:f77ceb637f6047a2acbad79129552a67f121c8da@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
-DTSTART:20260727T010000Z
-DTEND:20260727T030000Z
-SUMMARY:Closing Night Awards Party w/ Karma Kameleon
-LOCATION:Fringe Boulevard\, King William St (between James St N and Hughson
-  St N)\, Hamilton\, ON
-DESCRIPTION:Company: HFTco (Hamilton)\nGenre: Free Outdoor Events\nClosing 
- Night and Awards lets artists and festival-goers celebrate all the best of
-  this year's Hamilton Fringe on its final night! Hosted by the legendary K
- arma Kameleon.\nGeneral Admission: FREE\nMore info: https://hftco.ca/event
- s/closing-night-awards-party-w-karma-kameleon/
-URL:https://hftco.ca/events/closing-night-awards-party-w-karma-kameleon/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:3238e441555ed7e3eac521044a16cb782c0bb1d4@hamilton-fringe-calendar
-DTSTAMP:20260723T025856Z
+DTSTAMP:20260723T134633Z
 DTSTART:20260727T011500Z
 DTEND:20260727T021500Z
 SUMMARY:Springtime
