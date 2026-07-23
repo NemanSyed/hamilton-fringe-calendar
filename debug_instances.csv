@@ -2,14 +2,14 @@ date_text,clean_title,cancelled,formerly,venue,time_text,start_utc,href
 "Wednesday, July 22",HPO Downtown Summer Concert Series,False,,Fringe Boulevard,12.00pm,2026-07-22 16:00:00,https://hftco.ca/events/hpo-downtown-summer-concert-series/
 "Wednesday, July 22","Community Book Swap (Take a Book, Leave a Book!) [RESCHEDULED]",False,,Fringe Boulevard,12.00pm,2026-07-22 16:00:00,https://hftco.ca/events/community-book-swap-take-a-book-leave-a-book/
 "Wednesday, July 22",Keeping Six Open Mic presented by Hamilton Community Foundation,False,,Fringe Boulevard,5.00pm,2026-07-22 21:00:00,https://hftco.ca/events/keeping-six-open-mic-presented-by-hamilton-community-foundation/
-"Wednesday, July 22",GO,False,,Mills Hardware,6.00pm,2026-07-22 22:00:00,https://hftco.ca/events/go/
 "Wednesday, July 22",The Outlaw and the Son,False,,The Westdale,6.00pm,2026-07-22 22:00:00,https://hftco.ca/events/the-outlaw-and-the-son/
 "Wednesday, July 22",Mark II,False,,The Gasworks,6.00pm,2026-07-22 22:00:00,https://hftco.ca/events/mark-ii/
+"Wednesday, July 22",GO,False,,Mills Hardware,6.00pm,2026-07-22 22:00:00,https://hftco.ca/events/go/
 "Wednesday, July 22",LOVE & CRAÍC,False,,The Staircase | Studio Theatre,6.15pm,2026-07-22 22:15:00,https://hftco.ca/events/love-craic/
 "Wednesday, July 22",There is No Anger Like That of a Woman,False,,Theatre Aquarius Studio,6.15pm,2026-07-22 22:15:00,https://hftco.ca/events/there-is-no-anger-like-that-of-a-woman/
 "Wednesday, July 22",Notes From Underground,False,,The Players’ Guild of Hamilton,6.15pm,2026-07-22 22:15:00,https://hftco.ca/events/notes-from-underground/
 "Wednesday, July 22",DND Live: Camp DieNoMore,False,,The Staircase | Bright Room,7.00pm,2026-07-22 23:00:00,https://hftco.ca/events/dnd-live-camp-dienomore/
-"Wednesday, July 22",Sidewalk Cinema: Taylor Swift’s Eras Tour (The Final Show),False,,Fringe Boulevard,7.00pm,2026-07-22 23:00:00,https://hftco.ca/events/sidewalk-cinema-taylor-swifts-eras-tour-the-final-show/
+"Wednesday, July 22",CANCELLED: Sidewalk Cinema: Taylor Swift’s Eras Tour (The Final Show),True,,Fringe Boulevard,7.00pm,2026-07-22 23:00:00,https://hftco.ca/events/sidewalk-cinema-taylor-swifts-eras-tour-the-final-show/
 "Wednesday, July 22",“Kill Me Now” – The Teaching Confessions of an Undercover Creative,False,,The Gasworks,7.30pm,2026-07-22 23:30:00,https://hftco.ca/events/kill-me-now-the-teaching-confessions-of-an-undercover-creative/
 "Wednesday, July 22",1 Million Served- Years Well Waitressed,False,,The Staircase | Elaine May,7.30pm,2026-07-22 23:30:00,https://hftco.ca/events/1-million-served-years-well-waitressed/
 "Wednesday, July 22",Awake and Dreaming,False,,The Westdale,7.30pm,2026-07-22 23:30:00,https://hftco.ca/events/awake-and-dreaming/
@@ -118,8 +118,8 @@ date_text,clean_title,cancelled,formerly,venue,time_text,start_utc,href
 "Friday, July 24",Hope & Joy,False,,Theatre Aquarius Studio,10.15pm,2026-07-25 02:15:00,https://hftco.ca/events/hope-joy/
 "Saturday, July 25",Interactive Hand Drum Circle W/ Auntie Social Singers,False,,Fringe Boulevard,11.00am,2026-07-25 15:00:00,https://hftco.ca/events/interactive-hand-drum-circle-w-auntie-social-singers/
 "Saturday, July 25",Awake and Dreaming,False,,The Westdale,11.00am,2026-07-25 15:00:00,https://hftco.ca/events/awake-and-dreaming/
-"Saturday, July 25",GO,False,,Mills Hardware,12.00pm,2026-07-25 16:00:00,https://hftco.ca/events/go/
 "Saturday, July 25",Springtime,False,,The Players’ Guild of Hamilton,12.00pm,2026-07-25 16:00:00,https://hftco.ca/events/springtime/
+"Saturday, July 25",GO,False,,Mills Hardware,12.00pm,2026-07-25 16:00:00,https://hftco.ca/events/go/
 "Saturday, July 25",Townsperson #3,False,,Theatre Aquarius Studio,12.15pm,2026-07-25 16:15:00,https://hftco.ca/events/townsperson-3/
 "Saturday, July 25",Raging Gracefully,False,,The Westdale,1.00pm,2026-07-25 17:00:00,https://hftco.ca/events/raging-gracefully/
 "Saturday, July 25",Intro to Adult Acting,False,,The Players’ Guild of Hamilton,1.30pm,2026-07-25 17:30:00,https://hftco.ca/events/intro-to-adult-acting/
